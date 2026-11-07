@@ -1,0 +1,6446 @@
+{
+  "meta": {
+    "synthetic": true,
+    "note": "示例数据：年份分布与量级参考真实情况，社交平台与 AI 平台部分为纯模拟；地名为虚构，联系人为化名，机构为虚构，日期在当年内随机生成，不含任何真实内容。",
+    "persona": "以本人为原型",
+    "generated": "2026-11-04",
+    "unit": "event",
+    "connected_from": 2013,
+    "status_counts": {
+      "unplanned": 304,
+      "passed_on": 0,
+      "released": 0
+    },
+    "ticks": {
+      "total_events": 304,
+      "tick_count": 60,
+      "per_tick": 6
+    },
+    "star_count": 10,
+    "star_cap": 18
+  },
+  "nodes": [
+    {
+      "id": "stage_genesis",
+      "dimension": "life_stage",
+      "name": {
+        "zh": {
+          "main": "启程",
+          "sub": "初程与起点"
+        },
+        "ko": {
+          "main": "서막",
+          "sub": "여정의 시작"
+        },
+        "en": {
+          "main": "Genesis",
+          "sub": "The Beginning"
+        }
+      },
+      "range": [
+        2001,
+        2017
+      ],
+      "proposed_by": "ai",
+      "editable": true,
+      "event_count": 24
+    },
+    {
+      "id": "stage_odyssey",
+      "dimension": "life_stage",
+      "name": {
+        "zh": {
+          "main": "探索",
+          "sub": "边界与试炼"
+        },
+        "ko": {
+          "main": "모험",
+          "sub": "확장과 시련"
+        },
+        "en": {
+          "main": "Odyssey",
+          "sub": "Exploration"
+        }
+      },
+      "range": [
+        2018,
+        2021
+      ],
+      "proposed_by": "ai",
+      "editable": true,
+      "event_count": 83
+    },
+    {
+      "id": "stage_anchoring",
+      "dimension": "life_stage",
+      "name": {
+        "zh": {
+          "main": "沉淀",
+          "sub": "专注与扎根"
+        },
+        "ko": {
+          "main": "심체",
+          "sub": "몰입과 깊이"
+        },
+        "en": {
+          "main": "Anchoring",
+          "sub": "Deep Waters"
+        }
+      },
+      "range": [
+        2022,
+        2024
+      ],
+      "proposed_by": "ai",
+      "editable": true,
+      "event_count": 81
+    },
+    {
+      "id": "stage_current",
+      "dimension": "life_stage",
+      "name": {
+        "zh": {
+          "main": "待命名",
+          "sub": "2025 起"
+        },
+        "ko": {
+          "main": "미정",
+          "sub": "2025부터"
+        },
+        "en": {
+          "main": "Unnamed",
+          "sub": "From 2025"
+        }
+      },
+      "range": [
+        2025,
+        2026
+      ],
+      "proposed_by": "ai",
+      "editable": true,
+      "event_count": 116
+    },
+    {
+      "id": "theme_artifacts",
+      "dimension": "life_theme",
+      "name": {
+        "zh": {
+          "main": "造物",
+          "sub": "作品与产物"
+        },
+        "ko": {
+          "main": "창작",
+          "sub": "남겨진 작업"
+        },
+        "en": {
+          "main": "Artifacts",
+          "sub": "Creative Works"
+        }
+      },
+      "event_count": 99
+    },
+    {
+      "id": "theme_footprints",
+      "dimension": "life_theme",
+      "name": {
+        "zh": {
+          "main": "足迹",
+          "sub": "旷野与角落"
+        },
+        "ko": {
+          "main": "발자취",
+          "sub": "풍경과 장소"
+        },
+        "en": {
+          "main": "Footprints",
+          "sub": "Travel & Place"
+        }
+      },
+      "event_count": 118
+    },
+    {
+      "id": "theme_fragments",
+      "dimension": "life_theme",
+      "name": {
+        "zh": {
+          "main": "碎片",
+          "sub": "碎碎念与日常"
+        },
+        "ko": {
+          "main": "일상",
+          "sub": "순간의 기록"
+        },
+        "en": {
+          "main": "Fragments",
+          "sub": "Daily Pulse"
+        }
+      },
+      "event_count": 65
+    },
+    {
+      "id": "people_林夏",
+      "dimension": "connection",
+      "name": {
+        "zh": {
+          "main": "林夏",
+          "sub": "持续往来"
+        },
+        "ko": {
+          "main": "린샤",
+          "sub": "지속적 교류"
+        },
+        "en": {
+          "main": "Lin Xia",
+          "sub": "Ongoing"
+        }
+      },
+      "alias": true,
+      "event_count": 8
+    },
+    {
+      "id": "people_许安",
+      "dimension": "connection",
+      "name": {
+        "zh": {
+          "main": "许安",
+          "sub": "持续往来"
+        },
+        "ko": {
+          "main": "쉬안",
+          "sub": "지속적 교류"
+        },
+        "en": {
+          "main": "Xu An",
+          "sub": "Ongoing"
+        }
+      },
+      "alias": true,
+      "event_count": 4
+    },
+    {
+      "id": "people_other",
+      "dimension": "connection",
+      "name": {
+        "zh": {
+          "main": "其他往来",
+          "sub": "较少联系"
+        },
+        "ko": {
+          "main": "기타",
+          "sub": "가끔 연락"
+        },
+        "en": {
+          "main": "Others",
+          "sub": "Occasional"
+        }
+      },
+      "alias": true,
+      "event_count": 10
+    }
+  ],
+  "events": [
+    {
+      "source": "facebook",
+      "type": "social_post",
+      "start": "2013-05-31",
+      "end": "2013-06-28",
+      "status": "unplanned",
+      "posts": 9,
+      "media": 9,
+      "place": null,
+      "nodes": [
+        "stage_genesis",
+        "theme_fragments"
+      ],
+      "fact": "9 条动态，包含 9 张照片或视频",
+      "id": "ev_001"
+    },
+    {
+      "source": "facebook",
+      "type": "social_post",
+      "start": "2013-11-19",
+      "end": "2014-02-15",
+      "status": "unplanned",
+      "posts": 21,
+      "media": 23,
+      "place": null,
+      "nodes": [
+        "stage_genesis",
+        "theme_fragments"
+      ],
+      "fact": "21 条动态，包含 23 张照片或视频",
+      "id": "ev_002"
+    },
+    {
+      "source": "facebook",
+      "type": "conversation",
+      "start": "2014-04-06",
+      "end": "2014-12-29",
+      "status": "unplanned",
+      "messages": 1734,
+      "who": "林夏",
+      "nodes": [
+        "stage_genesis",
+        "people_林夏"
+      ],
+      "fact": "267 天内 1734 条往来",
+      "id": "ev_003"
+    },
+    {
+      "source": "facebook",
+      "type": "social_post",
+      "start": "2014-07-25",
+      "end": "2014-09-21",
+      "status": "unplanned",
+      "posts": 20,
+      "media": 40,
+      "place": null,
+      "nodes": [
+        "stage_genesis",
+        "theme_artifacts"
+      ],
+      "fact": "20 条动态，包含 40 张照片或视频",
+      "id": "ev_004"
+    },
+    {
+      "source": "facebook",
+      "type": "social_post",
+      "start": "2014-09-30",
+      "end": "2014-10-28",
+      "status": "unplanned",
+      "posts": 21,
+      "media": 39,
+      "place": "南屿",
+      "nodes": [
+        "stage_genesis",
+        "theme_footprints"
+      ],
+      "fact": "21 条动态，包含 39 张照片或视频，地点：南屿",
+      "id": "ev_005",
+      "placeI18n": {
+        "zh": "南屿",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "source": "facebook",
+      "type": "social_post",
+      "start": "2014-11-18",
+      "end": "2014-12-16",
+      "status": "unplanned",
+      "posts": 17,
+      "media": 29,
+      "place": null,
+      "nodes": [
+        "stage_genesis",
+        "theme_artifacts"
+      ],
+      "fact": "17 条动态，包含 29 张照片或视频",
+      "id": "ev_006"
+    },
+    {
+      "source": "facebook",
+      "type": "social_post",
+      "start": "2015-01-03",
+      "end": "2015-04-01",
+      "status": "unplanned",
+      "posts": 15,
+      "media": 22,
+      "place": null,
+      "nodes": [
+        "stage_genesis",
+        "theme_fragments"
+      ],
+      "fact": "15 条动态，包含 22 张照片或视频",
+      "id": "ev_007"
+    },
+    {
+      "source": "facebook",
+      "type": "social_post",
+      "start": "2015-05-22",
+      "end": "2015-07-19",
+      "status": "unplanned",
+      "posts": 5,
+      "media": 6,
+      "place": "听雪",
+      "nodes": [
+        "stage_genesis",
+        "theme_footprints"
+      ],
+      "fact": "5 条动态，包含 6 张照片或视频，地点：听雪",
+      "id": "ev_008",
+      "placeI18n": {
+        "zh": "听雪",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "source": "facebook",
+      "type": "social_post",
+      "start": "2015-09-16",
+      "end": "2015-12-13",
+      "status": "unplanned",
+      "posts": 21,
+      "media": 42,
+      "place": null,
+      "nodes": [
+        "stage_genesis",
+        "theme_fragments"
+      ],
+      "fact": "21 条动态，包含 42 张照片或视频",
+      "id": "ev_009"
+    },
+    {
+      "source": "instagram",
+      "type": "social_post",
+      "start": "2015-10-05",
+      "end": "2015-12-02",
+      "status": "unplanned",
+      "posts": 26,
+      "media": 30,
+      "place": "洛安",
+      "nodes": [
+        "stage_genesis",
+        "theme_footprints"
+      ],
+      "fact": "26 条动态，包含 30 张照片或视频，地点：洛安",
+      "id": "ev_010",
+      "placeI18n": {
+        "zh": "洛安",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "source": "facebook",
+      "type": "social_post",
+      "start": "2016-01-05",
+      "end": "2016-02-02",
+      "status": "unplanned",
+      "posts": 8,
+      "media": 17,
+      "place": null,
+      "nodes": [
+        "stage_genesis",
+        "theme_fragments"
+      ],
+      "fact": "8 条动态，包含 17 张照片或视频",
+      "id": "ev_011"
+    },
+    {
+      "source": "facebook",
+      "type": "social_post",
+      "start": "2016-02-04",
+      "end": "2016-03-03",
+      "status": "unplanned",
+      "posts": 5,
+      "media": 10,
+      "place": null,
+      "nodes": [
+        "stage_genesis",
+        "theme_fragments"
+      ],
+      "fact": "5 条动态，包含 10 张照片或视频",
+      "id": "ev_012"
+    },
+    {
+      "source": "facebook",
+      "type": "social_post",
+      "start": "2016-04-27",
+      "end": "2016-06-24",
+      "status": "unplanned",
+      "posts": 10,
+      "media": 17,
+      "place": null,
+      "nodes": [
+        "stage_genesis",
+        "theme_fragments"
+      ],
+      "fact": "10 条动态，包含 17 张照片或视频",
+      "id": "ev_013"
+    },
+    {
+      "type": "creative",
+      "start": "2016-06-08",
+      "end": "2016-08-05",
+      "files": 21,
+      "kind": "设计",
+      "id": "ev_014",
+      "nodes": [
+        "stage_genesis",
+        "theme_artifacts"
+      ],
+      "status": "unplanned",
+      "fact": "21 个设计文件",
+      "source": "icloud"
+    },
+    {
+      "source": "instagram",
+      "type": "social_post",
+      "start": "2016-10-05",
+      "end": "2016-11-02",
+      "status": "unplanned",
+      "posts": 19,
+      "media": 31,
+      "place": null,
+      "nodes": [
+        "stage_genesis",
+        "theme_fragments"
+      ],
+      "fact": "19 条动态，包含 31 张照片或视频",
+      "id": "ev_015"
+    },
+    {
+      "source": "facebook",
+      "type": "conversation",
+      "start": "2016-10-12",
+      "end": "2016-12-27",
+      "status": "unplanned",
+      "messages": 594,
+      "who": "其他",
+      "nodes": [
+        "stage_genesis",
+        "people_other"
+      ],
+      "fact": "76 天内 594 条往来",
+      "id": "ev_016"
+    },
+    {
+      "type": "creative",
+      "start": "2017-01-15",
+      "end": "2017-03-14",
+      "files": 19,
+      "kind": "表格",
+      "id": "ev_017",
+      "nodes": [
+        "stage_genesis",
+        "theme_artifacts"
+      ],
+      "status": "unplanned",
+      "fact": "19 个表格文件",
+      "source": "icloud"
+    },
+    {
+      "source": "facebook",
+      "type": "social_post",
+      "start": "2017-02-09",
+      "end": "2017-05-08",
+      "status": "unplanned",
+      "posts": 11,
+      "media": 20,
+      "place": "白石湾",
+      "nodes": [
+        "stage_genesis",
+        "theme_footprints"
+      ],
+      "fact": "11 条动态，包含 20 张照片或视频，地点：白石湾",
+      "id": "ev_018",
+      "placeI18n": {
+        "zh": "白石湾",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "source": "facebook",
+      "type": "social_post",
+      "start": "2017-02-27",
+      "end": "2017-03-27",
+      "status": "unplanned",
+      "posts": 15,
+      "media": 36,
+      "place": null,
+      "nodes": [
+        "stage_genesis",
+        "theme_artifacts"
+      ],
+      "fact": "15 条动态，包含 36 张照片或视频",
+      "id": "ev_019"
+    },
+    {
+      "type": "creative",
+      "start": "2017-04-21",
+      "end": "2017-06-18",
+      "files": 10,
+      "kind": "影像",
+      "id": "ev_020",
+      "nodes": [
+        "stage_genesis",
+        "theme_artifacts"
+      ],
+      "status": "unplanned",
+      "fact": "10 个影像文件",
+      "source": "icloud"
+    },
+    {
+      "type": "footprint",
+      "start": "2017-05-27",
+      "end": "2017-05-28",
+      "place": "渡口",
+      "days": 2,
+      "photos": 790,
+      "id": "ev_021",
+      "nodes": [
+        "stage_genesis",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "2 天，包含 790 张照片或视频，地点：渡口",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "渡口",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "source": "instagram",
+      "type": "social_post",
+      "start": "2017-08-11",
+      "end": "2017-10-08",
+      "status": "unplanned",
+      "posts": 23,
+      "media": 28,
+      "place": null,
+      "nodes": [
+        "stage_genesis",
+        "theme_fragments"
+      ],
+      "fact": "23 条动态，包含 28 张照片或视频",
+      "id": "ev_022"
+    },
+    {
+      "source": "instagram",
+      "type": "social_post",
+      "start": "2017-08-18",
+      "end": "2017-10-15",
+      "status": "unplanned",
+      "posts": 5,
+      "media": 7,
+      "place": null,
+      "nodes": [
+        "stage_genesis",
+        "theme_artifacts"
+      ],
+      "fact": "5 条动态，包含 7 张照片或视频",
+      "id": "ev_023"
+    },
+    {
+      "type": "footprint",
+      "start": "2017-11-25",
+      "end": "2017-11-27",
+      "place": "白石湾",
+      "days": 3,
+      "photos": 176,
+      "id": "ev_024",
+      "nodes": [
+        "stage_genesis",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "3 天，包含 176 张照片或视频，地点：白石湾",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "白石湾",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "footprint",
+      "start": "2018-01-23",
+      "end": "2018-01-25",
+      "place": "临川",
+      "days": 3,
+      "photos": 728,
+      "id": "ev_025",
+      "nodes": [
+        "stage_odyssey",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "3 天，包含 728 张照片或视频，地点：临川",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "临川",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "footprint",
+      "start": "2018-01-24",
+      "end": "2018-01-24",
+      "place": "云岭",
+      "days": 1,
+      "photos": 179,
+      "id": "ev_026",
+      "nodes": [
+        "stage_odyssey",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "1 天，包含 179 张照片或视频，地点：云岭",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "云岭",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "source": "facebook",
+      "type": "social_post",
+      "start": "2018-01-30",
+      "end": "2018-03-29",
+      "status": "unplanned",
+      "posts": 3,
+      "media": 3,
+      "place": null,
+      "nodes": [
+        "stage_odyssey",
+        "theme_fragments"
+      ],
+      "fact": "3 条动态，包含 3 张照片或视频",
+      "id": "ev_027"
+    },
+    {
+      "source": "instagram",
+      "type": "social_post",
+      "start": "2018-02-11",
+      "end": "2018-03-11",
+      "status": "unplanned",
+      "posts": 23,
+      "media": 38,
+      "place": null,
+      "nodes": [
+        "stage_odyssey",
+        "theme_fragments"
+      ],
+      "fact": "23 条动态，包含 38 张照片或视频",
+      "id": "ev_028"
+    },
+    {
+      "type": "footprint",
+      "start": "2018-02-17",
+      "end": "2018-02-18",
+      "place": "渡口",
+      "days": 2,
+      "photos": 356,
+      "id": "ev_029",
+      "nodes": [
+        "stage_odyssey",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "2 天，包含 356 张照片或视频，地点：渡口",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "渡口",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "footprint",
+      "start": "2018-03-11",
+      "end": "2018-03-23",
+      "place": "南屿",
+      "days": 13,
+      "photos": 45,
+      "id": "ev_030",
+      "nodes": [
+        "stage_odyssey",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "13 天，包含 45 张照片或视频，地点：南屿",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "南屿",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "creative",
+      "start": "2018-04-16",
+      "end": "2018-06-13",
+      "files": 35,
+      "kind": "表格",
+      "id": "ev_031",
+      "nodes": [
+        "stage_odyssey",
+        "theme_artifacts"
+      ],
+      "status": "unplanned",
+      "fact": "35 个表格文件",
+      "source": "icloud"
+    },
+    {
+      "source": "facebook",
+      "type": "conversation",
+      "start": "2018-04-26",
+      "end": "2018-10-19",
+      "status": "unplanned",
+      "messages": 1577,
+      "who": "其他",
+      "nodes": [
+        "stage_odyssey",
+        "people_other"
+      ],
+      "fact": "176 天内 1577 条往来",
+      "id": "ev_032"
+    },
+    {
+      "source": "facebook",
+      "type": "social_post",
+      "start": "2018-05-20",
+      "end": "2018-07-17",
+      "status": "unplanned",
+      "posts": 9,
+      "media": 22,
+      "place": "望潮",
+      "nodes": [
+        "stage_odyssey",
+        "theme_footprints"
+      ],
+      "fact": "9 条动态，包含 22 张照片或视频，地点：望潮",
+      "id": "ev_033",
+      "placeI18n": {
+        "zh": "望潮",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "footprint",
+      "start": "2018-07-06",
+      "end": "2018-07-09",
+      "place": "栖海",
+      "days": 4,
+      "photos": 48,
+      "id": "ev_034",
+      "nodes": [
+        "stage_odyssey",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "4 天，包含 48 张照片或视频，地点：栖海",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "栖海",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "footprint",
+      "start": "2018-07-11",
+      "end": "2018-07-13",
+      "place": "临川",
+      "days": 3,
+      "photos": 183,
+      "id": "ev_035",
+      "nodes": [
+        "stage_odyssey",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "3 天，包含 183 张照片或视频，地点：临川",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "临川",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "source": "instagram",
+      "type": "social_post",
+      "start": "2018-08-24",
+      "end": "2018-11-20",
+      "status": "unplanned",
+      "posts": 16,
+      "media": 20,
+      "place": "云岭",
+      "nodes": [
+        "stage_odyssey",
+        "theme_footprints"
+      ],
+      "fact": "16 条动态，包含 20 张照片或视频，地点：云岭",
+      "id": "ev_036",
+      "placeI18n": {
+        "zh": "云岭",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "footprint",
+      "start": "2018-12-20",
+      "end": "2018-12-21",
+      "place": "霁山",
+      "days": 2,
+      "photos": 273,
+      "id": "ev_037",
+      "nodes": [
+        "stage_odyssey",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "2 天，包含 273 张照片或视频，地点：霁山",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "霁山",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "source": "facebook",
+      "type": "conversation",
+      "start": "2019-01-05",
+      "end": "2019-03-06",
+      "status": "unplanned",
+      "messages": 1491,
+      "who": "林夏",
+      "nodes": [
+        "stage_odyssey",
+        "people_林夏"
+      ],
+      "fact": "60 天内 1491 条往来",
+      "id": "ev_038"
+    },
+    {
+      "source": "instagram",
+      "type": "social_post",
+      "start": "2019-01-14",
+      "end": "2019-03-13",
+      "status": "unplanned",
+      "posts": 35,
+      "media": 65,
+      "place": "青禾",
+      "nodes": [
+        "stage_odyssey",
+        "theme_footprints"
+      ],
+      "fact": "35 条动态，包含 65 张照片或视频，地点：青禾",
+      "id": "ev_039",
+      "placeI18n": {
+        "zh": "青禾",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "footprint",
+      "start": "2019-01-28",
+      "end": "2019-01-28",
+      "place": "望潮",
+      "days": 1,
+      "photos": 93,
+      "id": "ev_040",
+      "nodes": [
+        "stage_odyssey",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "1 天，包含 93 张照片或视频，地点：望潮",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "望潮",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "footprint",
+      "start": "2019-02-06",
+      "end": "2019-02-09",
+      "place": "栖海",
+      "days": 4,
+      "photos": 327,
+      "id": "ev_041",
+      "nodes": [
+        "stage_odyssey",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "4 天，包含 327 张照片或视频，地点：栖海",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "栖海",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "footprint",
+      "start": "2019-02-07",
+      "end": "2019-02-09",
+      "place": "青禾",
+      "days": 3,
+      "photos": 36,
+      "id": "ev_042",
+      "nodes": [
+        "stage_odyssey",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "3 天，包含 36 张照片或视频，地点：青禾",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "青禾",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "creative",
+      "start": "2019-02-10",
+      "end": "2019-04-09",
+      "files": 22,
+      "kind": "演示",
+      "id": "ev_043",
+      "nodes": [
+        "stage_odyssey",
+        "theme_artifacts"
+      ],
+      "status": "unplanned",
+      "fact": "22 个演示文件",
+      "source": "icloud"
+    },
+    {
+      "source": "facebook",
+      "type": "social_post",
+      "start": "2019-03-01",
+      "end": "2019-05-28",
+      "status": "unplanned",
+      "posts": 7,
+      "media": 10,
+      "place": null,
+      "nodes": [
+        "stage_odyssey",
+        "theme_artifacts"
+      ],
+      "fact": "7 条动态，包含 10 张照片或视频",
+      "id": "ev_044"
+    },
+    {
+      "source": "instagram",
+      "type": "social_post",
+      "start": "2019-04-15",
+      "end": "2019-07-12",
+      "status": "unplanned",
+      "posts": 4,
+      "media": 6,
+      "place": null,
+      "nodes": [
+        "stage_odyssey",
+        "theme_fragments"
+      ],
+      "fact": "4 条动态，包含 6 张照片或视频",
+      "id": "ev_045"
+    },
+    {
+      "type": "creative",
+      "start": "2019-06-02",
+      "end": "2019-07-30",
+      "files": 6,
+      "kind": "文稿",
+      "id": "ev_046",
+      "nodes": [
+        "stage_odyssey",
+        "theme_artifacts"
+      ],
+      "status": "unplanned",
+      "fact": "6 个文稿文件",
+      "source": "icloud"
+    },
+    {
+      "type": "footprint",
+      "start": "2019-06-10",
+      "end": "2019-06-10",
+      "place": "云岭",
+      "days": 1,
+      "photos": 137,
+      "id": "ev_047",
+      "nodes": [
+        "stage_odyssey",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "1 天，包含 137 张照片或视频，地点：云岭",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "云岭",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "creative",
+      "start": "2019-06-13",
+      "end": "2019-09-09",
+      "files": 58,
+      "kind": "影像",
+      "id": "ev_048",
+      "nodes": [
+        "stage_odyssey",
+        "theme_artifacts"
+      ],
+      "status": "unplanned",
+      "fact": "58 个影像文件",
+      "source": "icloud"
+    },
+    {
+      "source": "linkedin",
+      "type": "career",
+      "start": "2019-06-21",
+      "end": "2022-06-05",
+      "status": "unplanned",
+      "kind": "教育",
+      "months": 36,
+      "org": "示例机构 C",
+      "nodes": [
+        "stage_odyssey",
+        "theme_artifacts"
+      ],
+      "fact": "教育，持续 36 个月，机构：示例机构 C",
+      "id": "ev_049",
+      "orgI18n": {
+        "zh": "示例机构 C",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "footprint",
+      "start": "2019-07-07",
+      "end": "2019-07-07",
+      "place": "长堤",
+      "days": 1,
+      "photos": 814,
+      "id": "ev_050",
+      "nodes": [
+        "stage_odyssey",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "1 天，包含 814 张照片或视频，地点：长堤",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "长堤",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "footprint",
+      "start": "2019-07-08",
+      "end": "2019-07-13",
+      "place": "渡口",
+      "days": 6,
+      "photos": 42,
+      "id": "ev_051",
+      "nodes": [
+        "stage_odyssey",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "6 天，包含 42 张照片或视频，地点：渡口",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "渡口",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "source": "instagram",
+      "type": "social_post",
+      "start": "2019-07-21",
+      "end": "2019-08-18",
+      "status": "unplanned",
+      "posts": 7,
+      "media": 14,
+      "place": null,
+      "nodes": [
+        "stage_odyssey",
+        "theme_fragments"
+      ],
+      "fact": "7 条动态，包含 14 张照片或视频",
+      "id": "ev_052"
+    },
+    {
+      "type": "footprint",
+      "start": "2019-08-27",
+      "end": "2019-08-27",
+      "place": "听雪",
+      "days": 1,
+      "photos": 275,
+      "id": "ev_053",
+      "nodes": [
+        "stage_odyssey",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "1 天，包含 275 张照片或视频，地点：听雪",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "听雪",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "footprint",
+      "start": "2019-08-31",
+      "end": "2019-09-10",
+      "place": "临川",
+      "days": 11,
+      "photos": 50,
+      "id": "ev_054",
+      "nodes": [
+        "stage_odyssey",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "11 天，包含 50 张照片或视频，地点：临川",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "临川",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "calendar",
+      "start": "2019-09-12",
+      "end": "2019-10-10",
+      "items": 6,
+      "id": "ev_055",
+      "nodes": [
+        "stage_odyssey",
+        "theme_fragments"
+      ],
+      "status": "unplanned",
+      "fact": "6 条日程",
+      "source": "calendar"
+    },
+    {
+      "type": "creative",
+      "start": "2019-09-16",
+      "end": "2019-10-14",
+      "files": 4,
+      "kind": "设计",
+      "id": "ev_056",
+      "nodes": [
+        "stage_odyssey",
+        "theme_artifacts"
+      ],
+      "status": "unplanned",
+      "fact": "4 个设计文件",
+      "source": "icloud"
+    },
+    {
+      "type": "footprint",
+      "start": "2019-09-20",
+      "end": "2019-09-23",
+      "place": "霁山",
+      "days": 4,
+      "photos": 861,
+      "id": "ev_057",
+      "nodes": [
+        "stage_odyssey",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "4 天，包含 861 张照片或视频，地点：霁山",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "霁山",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "creative",
+      "start": "2019-09-23",
+      "end": "2019-12-20",
+      "files": 5,
+      "kind": "表格",
+      "id": "ev_058",
+      "nodes": [
+        "stage_odyssey",
+        "theme_artifacts"
+      ],
+      "status": "unplanned",
+      "fact": "5 个表格文件",
+      "source": "icloud"
+    },
+    {
+      "type": "footprint",
+      "start": "2019-12-06",
+      "end": "2019-12-07",
+      "place": "洛安",
+      "days": 2,
+      "photos": 514,
+      "id": "ev_059",
+      "nodes": [
+        "stage_odyssey",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "2 天，包含 514 张照片或视频，地点：洛安",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "洛安",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "footprint",
+      "start": "2019-12-06",
+      "end": "2019-12-06",
+      "place": "松间",
+      "days": 1,
+      "photos": 340,
+      "id": "ev_060",
+      "nodes": [
+        "stage_odyssey",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "1 天，包含 340 张照片或视频，地点：松间",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "松间",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "footprint",
+      "start": "2020-01-04",
+      "end": "2020-01-04",
+      "place": "白石湾",
+      "days": 1,
+      "photos": 163,
+      "id": "ev_061",
+      "nodes": [
+        "stage_odyssey",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "1 天，包含 163 张照片或视频，地点：白石湾",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "白石湾",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "source": "facebook",
+      "type": "social_post",
+      "start": "2020-01-16",
+      "end": "2020-03-14",
+      "status": "unplanned",
+      "posts": 19,
+      "media": 35,
+      "place": null,
+      "nodes": [
+        "stage_odyssey",
+        "theme_fragments"
+      ],
+      "fact": "19 条动态，包含 35 张照片或视频",
+      "id": "ev_062"
+    },
+    {
+      "type": "creative",
+      "start": "2020-02-11",
+      "end": "2020-05-09",
+      "files": 26,
+      "kind": "演示",
+      "id": "ev_063",
+      "nodes": [
+        "stage_odyssey",
+        "theme_artifacts"
+      ],
+      "status": "unplanned",
+      "fact": "26 个演示文件",
+      "source": "icloud"
+    },
+    {
+      "type": "calendar",
+      "start": "2020-02-13",
+      "end": "2020-04-11",
+      "items": 8,
+      "id": "ev_064",
+      "nodes": [
+        "stage_odyssey",
+        "theme_fragments"
+      ],
+      "status": "unplanned",
+      "fact": "8 条日程",
+      "source": "calendar"
+    },
+    {
+      "type": "calendar",
+      "start": "2020-03-20",
+      "end": "2020-06-16",
+      "items": 4,
+      "id": "ev_065",
+      "nodes": [
+        "stage_odyssey",
+        "theme_fragments"
+      ],
+      "status": "unplanned",
+      "fact": "4 条日程",
+      "source": "calendar"
+    },
+    {
+      "source": "linkedin",
+      "type": "connection",
+      "start": "2020-04-20",
+      "end": "2020-06-19",
+      "status": "unplanned",
+      "added": 139,
+      "nodes": [
+        "stage_odyssey",
+        "people_other"
+      ],
+      "fact": "新增 139 位联系人",
+      "id": "ev_066"
+    },
+    {
+      "type": "footprint",
+      "start": "2020-05-04",
+      "end": "2020-05-07",
+      "place": "听雪",
+      "days": 4,
+      "photos": 96,
+      "id": "ev_067",
+      "nodes": [
+        "stage_odyssey",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "4 天，包含 96 张照片或视频，地点：听雪",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "听雪",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "footprint",
+      "start": "2020-05-09",
+      "end": "2020-05-10",
+      "place": "望潮",
+      "days": 2,
+      "photos": 533,
+      "id": "ev_068",
+      "nodes": [
+        "stage_odyssey",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "2 天，包含 533 张照片或视频，地点：望潮",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "望潮",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "creative",
+      "start": "2020-06-05",
+      "end": "2020-08-02",
+      "files": 26,
+      "kind": "3D",
+      "id": "ev_069",
+      "nodes": [
+        "stage_odyssey",
+        "theme_artifacts"
+      ],
+      "status": "unplanned",
+      "fact": "26 个3D文件",
+      "source": "icloud"
+    },
+    {
+      "source": "instagram",
+      "type": "social_post",
+      "start": "2020-06-07",
+      "end": "2020-08-04",
+      "status": "unplanned",
+      "posts": 9,
+      "media": 12,
+      "place": null,
+      "nodes": [
+        "stage_odyssey",
+        "theme_fragments"
+      ],
+      "fact": "9 条动态，包含 12 张照片或视频",
+      "id": "ev_070"
+    },
+    {
+      "type": "footprint",
+      "start": "2020-07-10",
+      "end": "2020-07-12",
+      "place": "临川",
+      "days": 3,
+      "photos": 118,
+      "id": "ev_071",
+      "nodes": [
+        "stage_odyssey",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "3 天，包含 118 张照片或视频，地点：临川",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "临川",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "footprint",
+      "start": "2020-08-07",
+      "end": "2020-08-09",
+      "place": "望潮",
+      "days": 3,
+      "photos": 27,
+      "id": "ev_072",
+      "nodes": [
+        "stage_odyssey",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "3 天，包含 27 张照片或视频，地点：望潮",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "望潮",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "notes",
+      "start": "2020-08-12",
+      "end": "2020-10-09",
+      "items": 4,
+      "id": "ev_073",
+      "nodes": [
+        "stage_odyssey",
+        "theme_fragments"
+      ],
+      "status": "unplanned",
+      "fact": "4 条备忘",
+      "source": "notes"
+    },
+    {
+      "source": "linkedin",
+      "type": "social_post",
+      "start": "2020-09-12",
+      "end": "2020-10-10",
+      "status": "unplanned",
+      "posts": 3,
+      "media": 6,
+      "place": null,
+      "nodes": [
+        "stage_odyssey",
+        "theme_artifacts"
+      ],
+      "fact": "3 条动态，包含 6 张照片或视频",
+      "id": "ev_074"
+    },
+    {
+      "type": "footprint",
+      "start": "2020-09-29",
+      "end": "2020-10-02",
+      "place": "望潮",
+      "days": 4,
+      "photos": 215,
+      "id": "ev_075",
+      "nodes": [
+        "stage_odyssey",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "4 天，包含 215 张照片或视频，地点：望潮",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "望潮",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "source": "instagram",
+      "type": "social_post",
+      "start": "2020-10-11",
+      "end": "2020-12-08",
+      "status": "unplanned",
+      "posts": 12,
+      "media": 16,
+      "place": null,
+      "nodes": [
+        "stage_odyssey",
+        "theme_fragments"
+      ],
+      "fact": "12 条动态，包含 16 张照片或视频",
+      "id": "ev_076"
+    },
+    {
+      "type": "footprint",
+      "start": "2020-10-16",
+      "end": "2020-10-24",
+      "place": "听雪",
+      "days": 9,
+      "photos": 377,
+      "id": "ev_077",
+      "nodes": [
+        "stage_odyssey",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "9 天，包含 377 张照片或视频，地点：听雪",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "听雪",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "footprint",
+      "start": "2020-10-25",
+      "end": "2020-10-28",
+      "place": "云岭",
+      "days": 4,
+      "photos": 31,
+      "id": "ev_078",
+      "nodes": [
+        "stage_odyssey",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "4 天，包含 31 张照片或视频，地点：云岭",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "云岭",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "creative",
+      "start": "2020-11-21",
+      "end": "2021-01-18",
+      "files": 36,
+      "kind": "演示",
+      "id": "ev_079",
+      "nodes": [
+        "stage_odyssey",
+        "theme_artifacts"
+      ],
+      "status": "unplanned",
+      "fact": "36 个演示文件",
+      "source": "icloud"
+    },
+    {
+      "type": "footprint",
+      "start": "2020-11-26",
+      "end": "2020-11-26",
+      "place": "听雪",
+      "days": 1,
+      "photos": 157,
+      "id": "ev_080",
+      "nodes": [
+        "stage_odyssey",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "1 天，包含 157 张照片或视频，地点：听雪",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "听雪",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "source": "instagram",
+      "type": "social_post",
+      "start": "2020-11-29",
+      "end": "2021-02-25",
+      "status": "unplanned",
+      "posts": 29,
+      "media": 36,
+      "place": null,
+      "nodes": [
+        "stage_odyssey",
+        "theme_artifacts"
+      ],
+      "fact": "29 条动态，包含 36 张照片或视频",
+      "id": "ev_081"
+    },
+    {
+      "type": "creative",
+      "start": "2020-12-03",
+      "end": "2020-12-31",
+      "files": 3,
+      "kind": "表格",
+      "id": "ev_082",
+      "nodes": [
+        "stage_odyssey",
+        "theme_artifacts"
+      ],
+      "status": "unplanned",
+      "fact": "3 个表格文件",
+      "source": "icloud"
+    },
+    {
+      "type": "creative",
+      "start": "2020-12-15",
+      "end": "2021-02-11",
+      "files": 20,
+      "kind": "3D",
+      "id": "ev_083",
+      "nodes": [
+        "stage_odyssey",
+        "theme_artifacts"
+      ],
+      "status": "unplanned",
+      "fact": "20 个3D文件",
+      "source": "icloud"
+    },
+    {
+      "type": "footprint",
+      "start": "2021-01-08",
+      "end": "2021-01-14",
+      "place": "渡口",
+      "days": 7,
+      "photos": 72,
+      "id": "ev_084",
+      "nodes": [
+        "stage_odyssey",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "7 天，包含 72 张照片或视频，地点：渡口",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "渡口",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "footprint",
+      "start": "2021-01-11",
+      "end": "2021-01-13",
+      "place": "临川",
+      "days": 3,
+      "photos": 268,
+      "id": "ev_085",
+      "nodes": [
+        "stage_odyssey",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "3 天，包含 268 张照片或视频，地点：临川",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "临川",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "creative",
+      "start": "2021-02-04",
+      "end": "2021-04-03",
+      "files": 6,
+      "kind": "表格",
+      "id": "ev_086",
+      "nodes": [
+        "stage_odyssey",
+        "theme_artifacts"
+      ],
+      "status": "unplanned",
+      "fact": "6 个表格文件",
+      "source": "icloud"
+    },
+    {
+      "type": "footprint",
+      "start": "2021-02-19",
+      "end": "2021-02-23",
+      "place": "南屿",
+      "days": 5,
+      "photos": 639,
+      "id": "ev_087",
+      "nodes": [
+        "stage_odyssey",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "5 天，包含 639 张照片或视频，地点：南屿",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "南屿",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "creative",
+      "start": "2021-02-24",
+      "end": "2021-04-23",
+      "files": 5,
+      "kind": "影像",
+      "id": "ev_088",
+      "nodes": [
+        "stage_odyssey",
+        "theme_artifacts"
+      ],
+      "status": "unplanned",
+      "fact": "5 个影像文件",
+      "source": "icloud"
+    },
+    {
+      "type": "footprint",
+      "start": "2021-03-05",
+      "end": "2021-03-06",
+      "place": "洛安",
+      "days": 2,
+      "photos": 186,
+      "id": "ev_089",
+      "nodes": [
+        "stage_odyssey",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "2 天，包含 186 张照片或视频，地点：洛安",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "洛安",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "footprint",
+      "start": "2021-03-11",
+      "end": "2021-03-25",
+      "place": "霁山",
+      "days": 15,
+      "photos": 149,
+      "id": "ev_090",
+      "nodes": [
+        "stage_odyssey",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "15 天，包含 149 张照片或视频，地点：霁山",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "霁山",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "footprint",
+      "start": "2021-03-16",
+      "end": "2021-03-16",
+      "place": "栖海",
+      "days": 1,
+      "photos": 788,
+      "id": "ev_091",
+      "nodes": [
+        "stage_odyssey",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "1 天，包含 788 张照片或视频，地点：栖海",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "栖海",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "calendar",
+      "start": "2021-06-03",
+      "end": "2021-07-31",
+      "items": 2,
+      "id": "ev_092",
+      "nodes": [
+        "stage_odyssey",
+        "theme_fragments"
+      ],
+      "status": "unplanned",
+      "fact": "2 条日程",
+      "source": "calendar"
+    },
+    {
+      "type": "footprint",
+      "start": "2021-06-21",
+      "end": "2021-06-21",
+      "place": "洛安",
+      "days": 1,
+      "photos": 184,
+      "id": "ev_093",
+      "nodes": [
+        "stage_odyssey",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "1 天，包含 184 张照片或视频，地点：洛安",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "洛安",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "footprint",
+      "start": "2021-06-30",
+      "end": "2021-07-02",
+      "place": "白石湾",
+      "days": 3,
+      "photos": 136,
+      "id": "ev_094",
+      "nodes": [
+        "stage_odyssey",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "3 天，包含 136 张照片或视频，地点：白石湾",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "白石湾",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "footprint",
+      "start": "2021-08-05",
+      "end": "2021-08-14",
+      "place": "临川",
+      "days": 10,
+      "photos": 139,
+      "id": "ev_095",
+      "nodes": [
+        "stage_odyssey",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "10 天，包含 139 张照片或视频，地点：临川",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "临川",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "footprint",
+      "start": "2021-08-14",
+      "end": "2021-08-20",
+      "place": "远汀",
+      "days": 7,
+      "photos": 288,
+      "id": "ev_096",
+      "nodes": [
+        "stage_odyssey",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "7 天，包含 288 张照片或视频，地点：远汀",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "远汀",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "footprint",
+      "start": "2021-08-23",
+      "end": "2021-08-25",
+      "place": "霁山",
+      "days": 3,
+      "photos": 414,
+      "id": "ev_097",
+      "nodes": [
+        "stage_odyssey",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "3 天，包含 414 张照片或视频，地点：霁山",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "霁山",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "footprint",
+      "start": "2021-08-24",
+      "end": "2021-08-26",
+      "place": "远汀",
+      "days": 3,
+      "photos": 211,
+      "id": "ev_098",
+      "nodes": [
+        "stage_odyssey",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "3 天，包含 211 张照片或视频，地点：远汀",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "远汀",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "creative",
+      "start": "2021-09-03",
+      "end": "2021-10-31",
+      "files": 6,
+      "kind": "设计",
+      "id": "ev_099",
+      "nodes": [
+        "stage_odyssey",
+        "theme_artifacts"
+      ],
+      "status": "unplanned",
+      "fact": "6 个设计文件",
+      "source": "icloud"
+    },
+    {
+      "source": "linkedin",
+      "type": "career",
+      "start": "2021-09-24",
+      "end": "2022-01-22",
+      "status": "unplanned",
+      "kind": "实习",
+      "months": 4,
+      "org": "示例机构 C",
+      "nodes": [
+        "stage_odyssey",
+        "theme_artifacts"
+      ],
+      "fact": "实习，持续 4 个月，机构：示例机构 C",
+      "id": "ev_100",
+      "orgI18n": {
+        "zh": "示例机构 C",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "footprint",
+      "start": "2021-10-01",
+      "end": "2021-10-14",
+      "place": "渡口",
+      "days": 14,
+      "photos": 496,
+      "id": "ev_101",
+      "nodes": [
+        "stage_odyssey",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "14 天，包含 496 张照片或视频，地点：渡口",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "渡口",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "footprint",
+      "start": "2021-11-20",
+      "end": "2021-11-22",
+      "place": "霁山",
+      "days": 3,
+      "photos": 370,
+      "id": "ev_102",
+      "nodes": [
+        "stage_odyssey",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "3 天，包含 370 张照片或视频，地点：霁山",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "霁山",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "source": "instagram",
+      "type": "social_post",
+      "start": "2021-11-24",
+      "end": "2022-02-20",
+      "status": "unplanned",
+      "posts": 19,
+      "media": 33,
+      "place": "栖海",
+      "nodes": [
+        "stage_odyssey",
+        "theme_footprints"
+      ],
+      "fact": "19 条动态，包含 33 张照片或视频，地点：栖海",
+      "id": "ev_103",
+      "placeI18n": {
+        "zh": "栖海",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "footprint",
+      "start": "2021-11-27",
+      "end": "2021-12-13",
+      "place": "南屿",
+      "days": 17,
+      "photos": 290,
+      "id": "ev_104",
+      "nodes": [
+        "stage_odyssey",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "17 天，包含 290 张照片或视频，地点：南屿",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "南屿",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "source": "instagram",
+      "type": "social_post",
+      "start": "2021-12-13",
+      "end": "2022-01-10",
+      "status": "unplanned",
+      "posts": 15,
+      "media": 19,
+      "place": null,
+      "nodes": [
+        "stage_odyssey",
+        "theme_artifacts"
+      ],
+      "fact": "15 条动态，包含 19 张照片或视频",
+      "id": "ev_105"
+    },
+    {
+      "type": "calendar",
+      "start": "2021-12-15",
+      "end": "2022-02-11",
+      "items": 6,
+      "id": "ev_106",
+      "nodes": [
+        "stage_odyssey",
+        "theme_fragments"
+      ],
+      "status": "unplanned",
+      "fact": "6 条日程",
+      "source": "calendar"
+    },
+    {
+      "source": "instagram",
+      "type": "social_post",
+      "start": "2021-12-24",
+      "end": "2022-01-21",
+      "status": "unplanned",
+      "posts": 37,
+      "media": 52,
+      "place": null,
+      "nodes": [
+        "stage_odyssey",
+        "theme_fragments"
+      ],
+      "fact": "37 条动态，包含 52 张照片或视频",
+      "id": "ev_107"
+    },
+    {
+      "type": "creative",
+      "start": "2022-01-09",
+      "end": "2022-02-06",
+      "files": 5,
+      "kind": "影像",
+      "id": "ev_108",
+      "nodes": [
+        "stage_anchoring",
+        "theme_artifacts"
+      ],
+      "status": "unplanned",
+      "fact": "5 个影像文件",
+      "source": "icloud"
+    },
+    {
+      "type": "footprint",
+      "start": "2022-03-20",
+      "end": "2022-03-21",
+      "place": "望潮",
+      "days": 2,
+      "photos": 132,
+      "id": "ev_109",
+      "nodes": [
+        "stage_anchoring",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "2 天，包含 132 张照片或视频，地点：望潮",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "望潮",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "creative",
+      "start": "2022-03-29",
+      "end": "2022-05-26",
+      "files": 18,
+      "kind": "影像",
+      "id": "ev_110",
+      "nodes": [
+        "stage_anchoring",
+        "theme_artifacts"
+      ],
+      "status": "unplanned",
+      "fact": "18 个影像文件",
+      "source": "icloud"
+    },
+    {
+      "source": "instagram",
+      "type": "social_post",
+      "start": "2022-05-06",
+      "end": "2022-06-03",
+      "status": "unplanned",
+      "posts": 7,
+      "media": 9,
+      "place": null,
+      "nodes": [
+        "stage_anchoring",
+        "theme_fragments"
+      ],
+      "fact": "7 条动态，包含 9 张照片或视频",
+      "id": "ev_111"
+    },
+    {
+      "source": "linkedin",
+      "type": "career",
+      "start": "2022-06-22",
+      "end": "2024-02-12",
+      "status": "unplanned",
+      "kind": "职位",
+      "months": 20,
+      "org": "示例机构 C",
+      "nodes": [
+        "stage_anchoring",
+        "theme_artifacts"
+      ],
+      "fact": "职位，持续 20 个月，机构：示例机构 C",
+      "id": "ev_112",
+      "orgI18n": {
+        "zh": "示例机构 C",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "source": "linkedin",
+      "type": "connection",
+      "start": "2022-06-22",
+      "end": "2022-08-21",
+      "status": "unplanned",
+      "added": 73,
+      "nodes": [
+        "stage_anchoring",
+        "people_other"
+      ],
+      "fact": "新增 73 位联系人",
+      "id": "ev_113"
+    },
+    {
+      "type": "footprint",
+      "start": "2022-07-11",
+      "end": "2022-07-18",
+      "place": "松间",
+      "days": 8,
+      "photos": 146,
+      "id": "ev_114",
+      "nodes": [
+        "stage_anchoring",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "8 天，包含 146 张照片或视频，地点：松间",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "松间",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "footprint",
+      "start": "2022-07-26",
+      "end": "2022-07-29",
+      "place": "临川",
+      "days": 4,
+      "photos": 45,
+      "id": "ev_115",
+      "nodes": [
+        "stage_anchoring",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "4 天，包含 45 张照片或视频，地点：临川",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "临川",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "footprint",
+      "start": "2022-09-19",
+      "end": "2022-09-21",
+      "place": "南屿",
+      "days": 3,
+      "photos": 92,
+      "id": "ev_116",
+      "nodes": [
+        "stage_anchoring",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "3 天，包含 92 张照片或视频，地点：南屿",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "南屿",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "footprint",
+      "start": "2022-10-11",
+      "end": "2022-10-28",
+      "place": "远汀",
+      "days": 18,
+      "photos": 110,
+      "id": "ev_117",
+      "nodes": [
+        "stage_anchoring",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "18 天，包含 110 张照片或视频，地点：远汀",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "远汀",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "footprint",
+      "start": "2022-10-19",
+      "end": "2022-10-20",
+      "place": "望潮",
+      "days": 2,
+      "photos": 294,
+      "id": "ev_118",
+      "nodes": [
+        "stage_anchoring",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "2 天，包含 294 张照片或视频，地点：望潮",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "望潮",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "footprint",
+      "start": "2022-11-03",
+      "end": "2022-11-20",
+      "place": "青禾",
+      "days": 18,
+      "photos": 35,
+      "id": "ev_119",
+      "nodes": [
+        "stage_anchoring",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "18 天，包含 35 张照片或视频，地点：青禾",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "青禾",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "source": "instagram",
+      "type": "social_post",
+      "start": "2022-11-03",
+      "end": "2022-12-31",
+      "status": "unplanned",
+      "posts": 29,
+      "media": 75,
+      "place": null,
+      "nodes": [
+        "stage_anchoring",
+        "theme_artifacts"
+      ],
+      "fact": "29 条动态，包含 75 张照片或视频",
+      "id": "ev_120"
+    },
+    {
+      "source": "linkedin",
+      "type": "social_post",
+      "start": "2022-11-22",
+      "end": "2022-12-20",
+      "status": "unplanned",
+      "posts": 5,
+      "media": 11,
+      "place": null,
+      "nodes": [
+        "stage_anchoring",
+        "theme_artifacts"
+      ],
+      "fact": "5 条动态，包含 11 张照片或视频",
+      "id": "ev_121"
+    },
+    {
+      "type": "calendar",
+      "start": "2022-11-30",
+      "end": "2023-01-27",
+      "items": 6,
+      "id": "ev_122",
+      "nodes": [
+        "stage_anchoring",
+        "theme_fragments"
+      ],
+      "status": "unplanned",
+      "fact": "6 条日程",
+      "source": "calendar"
+    },
+    {
+      "type": "footprint",
+      "start": "2022-12-02",
+      "end": "2022-12-05",
+      "place": "长堤",
+      "days": 4,
+      "photos": 36,
+      "id": "ev_123",
+      "nodes": [
+        "stage_anchoring",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "4 天，包含 36 张照片或视频，地点：长堤",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "长堤",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "source": "instagram",
+      "type": "social_post",
+      "start": "2022-12-11",
+      "end": "2023-02-07",
+      "status": "unplanned",
+      "posts": 38,
+      "media": 44,
+      "place": "长堤",
+      "nodes": [
+        "stage_anchoring",
+        "theme_footprints"
+      ],
+      "fact": "38 条动态，包含 44 张照片或视频，地点：长堤",
+      "id": "ev_124",
+      "placeI18n": {
+        "zh": "长堤",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "footprint",
+      "start": "2023-01-18",
+      "end": "2023-02-01",
+      "place": "望潮",
+      "days": 15,
+      "photos": 284,
+      "id": "ev_125",
+      "nodes": [
+        "stage_anchoring",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "15 天，包含 284 张照片或视频，地点：望潮",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "望潮",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "conversation",
+      "start": "2023-02-15",
+      "end": "2023-11-01",
+      "messages": 193,
+      "who": "林夏",
+      "id": "ev_126",
+      "nodes": [
+        "stage_anchoring",
+        "people_林夏"
+      ],
+      "status": "unplanned",
+      "fact": "259 天内 193 条往来",
+      "source": "imessage"
+    },
+    {
+      "source": "linkedin",
+      "type": "career",
+      "start": "2023-02-20",
+      "end": "2023-03-22",
+      "status": "unplanned",
+      "kind": "证书",
+      "months": 1,
+      "org": "示例机构 C",
+      "nodes": [
+        "stage_anchoring",
+        "theme_artifacts"
+      ],
+      "fact": "证书，持续 1 个月，机构：示例机构 C",
+      "id": "ev_127",
+      "orgI18n": {
+        "zh": "示例机构 C",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "calendar",
+      "start": "2023-03-02",
+      "end": "2023-03-30",
+      "items": 7,
+      "id": "ev_128",
+      "nodes": [
+        "stage_anchoring",
+        "theme_fragments"
+      ],
+      "status": "unplanned",
+      "fact": "7 条日程",
+      "source": "calendar"
+    },
+    {
+      "type": "footprint",
+      "start": "2023-03-23",
+      "end": "2023-03-24",
+      "place": "云岭",
+      "days": 2,
+      "photos": 299,
+      "id": "ev_129",
+      "nodes": [
+        "stage_anchoring",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "2 天，包含 299 张照片或视频，地点：云岭",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "云岭",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "footprint",
+      "start": "2023-03-28",
+      "end": "2023-03-30",
+      "place": "栖海",
+      "days": 3,
+      "photos": 465,
+      "id": "ev_130",
+      "nodes": [
+        "stage_anchoring",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "3 天，包含 465 张照片或视频，地点：栖海",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "栖海",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "source": "linkedin",
+      "type": "social_post",
+      "start": "2023-03-28",
+      "end": "2023-06-24",
+      "status": "unplanned",
+      "posts": 3,
+      "media": 6,
+      "place": null,
+      "nodes": [
+        "stage_anchoring",
+        "theme_artifacts"
+      ],
+      "fact": "3 条动态，包含 6 张照片或视频",
+      "id": "ev_131"
+    },
+    {
+      "source": "chatgpt",
+      "type": "ai_session",
+      "start": "2023-03-28",
+      "end": "2023-04-25",
+      "sessions": 46,
+      "turns": 506,
+      "kind": "code",
+      "status": "unplanned",
+      "nodes": [
+        "stage_anchoring",
+        "theme_artifacts"
+      ],
+      "fact": "46 次会话，约 506 轮对话，类型：编程",
+      "id": "ev_132"
+    },
+    {
+      "type": "footprint",
+      "start": "2023-04-06",
+      "end": "2023-04-07",
+      "place": "云岭",
+      "days": 2,
+      "photos": 90,
+      "id": "ev_133",
+      "nodes": [
+        "stage_anchoring",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "2 天，包含 90 张照片或视频，地点：云岭",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "云岭",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "footprint",
+      "start": "2023-04-16",
+      "end": "2023-04-18",
+      "place": "临川",
+      "days": 3,
+      "photos": 350,
+      "id": "ev_134",
+      "nodes": [
+        "stage_anchoring",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "3 天，包含 350 张照片或视频，地点：临川",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "临川",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "source": "instagram",
+      "type": "social_post",
+      "start": "2023-05-30",
+      "end": "2023-06-27",
+      "status": "unplanned",
+      "posts": 17,
+      "media": 34,
+      "place": null,
+      "nodes": [
+        "stage_anchoring",
+        "theme_fragments"
+      ],
+      "fact": "17 条动态，包含 34 张照片或视频",
+      "id": "ev_135"
+    },
+    {
+      "type": "conversation",
+      "start": "2023-06-17",
+      "end": "2024-04-01",
+      "messages": 9544,
+      "who": "许安",
+      "id": "ev_136",
+      "nodes": [
+        "stage_anchoring",
+        "people_许安"
+      ],
+      "status": "unplanned",
+      "fact": "289 天内 9544 条往来",
+      "source": "imessage"
+    },
+    {
+      "source": "chatgpt",
+      "type": "ai_session",
+      "start": "2023-07-06",
+      "end": "2023-09-02",
+      "sessions": 53,
+      "turns": 265,
+      "kind": "chat",
+      "status": "unplanned",
+      "nodes": [
+        "stage_anchoring",
+        "theme_fragments"
+      ],
+      "fact": "53 次会话，约 265 轮对话，类型：日常问答",
+      "id": "ev_137"
+    },
+    {
+      "type": "footprint",
+      "start": "2023-07-14",
+      "end": "2023-07-17",
+      "place": "望潮",
+      "days": 4,
+      "photos": 180,
+      "id": "ev_138",
+      "nodes": [
+        "stage_anchoring",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "4 天，包含 180 张照片或视频，地点：望潮",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "望潮",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "conversation",
+      "start": "2023-07-26",
+      "end": "2024-07-22",
+      "messages": 225,
+      "who": "沈禾",
+      "id": "ev_139",
+      "nodes": [
+        "stage_anchoring",
+        "people_other"
+      ],
+      "status": "unplanned",
+      "fact": "362 天内 225 条往来",
+      "source": "imessage"
+    },
+    {
+      "type": "creative",
+      "start": "2023-08-10",
+      "end": "2023-09-07",
+      "files": 57,
+      "kind": "文稿",
+      "id": "ev_140",
+      "nodes": [
+        "stage_anchoring",
+        "theme_artifacts"
+      ],
+      "status": "unplanned",
+      "fact": "57 个文稿文件",
+      "source": "icloud"
+    },
+    {
+      "type": "footprint",
+      "start": "2023-08-15",
+      "end": "2023-08-26",
+      "place": "渡口",
+      "days": 12,
+      "photos": 286,
+      "id": "ev_141",
+      "nodes": [
+        "stage_anchoring",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "12 天，包含 286 张照片或视频，地点：渡口",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "渡口",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "footprint",
+      "start": "2023-09-04",
+      "end": "2023-09-15",
+      "place": "听雪",
+      "days": 12,
+      "photos": 72,
+      "id": "ev_142",
+      "nodes": [
+        "stage_anchoring",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "12 天，包含 72 张照片或视频，地点：听雪",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "听雪",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "notes",
+      "start": "2023-09-09",
+      "end": "2023-10-07",
+      "items": 4,
+      "id": "ev_143",
+      "nodes": [
+        "stage_anchoring",
+        "theme_fragments"
+      ],
+      "status": "unplanned",
+      "fact": "4 条备忘",
+      "source": "notes"
+    },
+    {
+      "source": "chatgpt",
+      "type": "ai_session",
+      "start": "2023-09-20",
+      "end": "2023-11-17",
+      "sessions": 47,
+      "turns": 188,
+      "kind": "chat",
+      "status": "unplanned",
+      "nodes": [
+        "stage_anchoring",
+        "theme_fragments"
+      ],
+      "fact": "47 次会话，约 188 轮对话，类型：日常问答",
+      "id": "ev_144"
+    },
+    {
+      "source": "instagram",
+      "type": "social_post",
+      "start": "2023-09-29",
+      "end": "2023-12-26",
+      "status": "unplanned",
+      "posts": 25,
+      "media": 30,
+      "place": null,
+      "nodes": [
+        "stage_anchoring",
+        "theme_fragments"
+      ],
+      "fact": "25 条动态，包含 30 张照片或视频",
+      "id": "ev_145"
+    },
+    {
+      "type": "footprint",
+      "start": "2023-10-02",
+      "end": "2023-10-02",
+      "place": "青禾",
+      "days": 1,
+      "photos": 291,
+      "id": "ev_146",
+      "nodes": [
+        "stage_anchoring",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "1 天，包含 291 张照片或视频，地点：青禾",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "青禾",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "conversation",
+      "start": "2023-10-19",
+      "end": "2024-05-01",
+      "messages": 137,
+      "who": "周行",
+      "id": "ev_147",
+      "nodes": [
+        "stage_anchoring",
+        "people_other"
+      ],
+      "status": "unplanned",
+      "fact": "195 天内 137 条往来",
+      "source": "imessage"
+    },
+    {
+      "type": "conversation",
+      "start": "2023-11-02",
+      "end": "2024-03-02",
+      "messages": 379,
+      "who": "陆远",
+      "id": "ev_148",
+      "nodes": [
+        "stage_anchoring",
+        "people_other"
+      ],
+      "status": "unplanned",
+      "fact": "121 天内 379 条往来",
+      "source": "imessage"
+    },
+    {
+      "type": "conversation",
+      "start": "2023-11-09",
+      "end": "2024-07-10",
+      "messages": 2245,
+      "who": "林夏",
+      "id": "ev_149",
+      "nodes": [
+        "stage_anchoring",
+        "people_林夏"
+      ],
+      "status": "unplanned",
+      "fact": "244 天内 2245 条往来",
+      "source": "imessage"
+    },
+    {
+      "source": "instagram",
+      "type": "conversation",
+      "start": "2023-11-21",
+      "end": "2024-05-08",
+      "status": "unplanned",
+      "messages": 951,
+      "who": "许安",
+      "nodes": [
+        "stage_anchoring",
+        "people_许安"
+      ],
+      "fact": "169 天内 951 条往来",
+      "id": "ev_150"
+    },
+    {
+      "source": "instagram",
+      "type": "social_post",
+      "start": "2023-12-18",
+      "end": "2024-01-15",
+      "status": "unplanned",
+      "posts": 25,
+      "media": 64,
+      "place": null,
+      "nodes": [
+        "stage_anchoring",
+        "theme_fragments"
+      ],
+      "fact": "25 条动态，包含 64 张照片或视频",
+      "id": "ev_151"
+    },
+    {
+      "type": "creative",
+      "start": "2023-12-30",
+      "end": "2024-03-27",
+      "files": 2,
+      "kind": "表格",
+      "id": "ev_152",
+      "nodes": [
+        "stage_anchoring",
+        "theme_artifacts"
+      ],
+      "status": "unplanned",
+      "fact": "2 个表格文件",
+      "source": "icloud"
+    },
+    {
+      "source": "chatgpt",
+      "type": "ai_session",
+      "start": "2024-01-16",
+      "end": "2024-02-13",
+      "sessions": 40,
+      "turns": 400,
+      "kind": "chat",
+      "status": "unplanned",
+      "nodes": [
+        "stage_anchoring",
+        "theme_fragments"
+      ],
+      "fact": "40 次会话，约 400 轮对话，类型：日常问答",
+      "id": "ev_153"
+    },
+    {
+      "source": "cursor",
+      "type": "ai_session",
+      "start": "2024-02-11",
+      "end": "2024-04-09",
+      "sessions": 31,
+      "turns": 279,
+      "kind": "code",
+      "status": "unplanned",
+      "nodes": [
+        "stage_anchoring",
+        "theme_artifacts"
+      ],
+      "fact": "31 次会话，约 279 轮对话，类型：编程",
+      "id": "ev_154"
+    },
+    {
+      "source": "instagram",
+      "type": "social_post",
+      "start": "2024-02-26",
+      "end": "2024-04-24",
+      "status": "unplanned",
+      "posts": 27,
+      "media": 37,
+      "place": "临川",
+      "nodes": [
+        "stage_anchoring",
+        "theme_footprints"
+      ],
+      "fact": "27 条动态，包含 37 张照片或视频，地点：临川",
+      "id": "ev_155",
+      "placeI18n": {
+        "zh": "临川",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "creative",
+      "start": "2024-03-05",
+      "end": "2024-04-02",
+      "files": 6,
+      "kind": "表格",
+      "id": "ev_156",
+      "nodes": [
+        "stage_anchoring",
+        "theme_artifacts"
+      ],
+      "status": "unplanned",
+      "fact": "6 个表格文件",
+      "source": "icloud"
+    },
+    {
+      "type": "footprint",
+      "start": "2024-03-07",
+      "end": "2024-03-07",
+      "place": "青禾",
+      "days": 1,
+      "photos": 990,
+      "id": "ev_157",
+      "nodes": [
+        "stage_anchoring",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "1 天，包含 990 张照片或视频，地点：青禾",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "青禾",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "source": "chatgpt",
+      "type": "ai_session",
+      "start": "2024-03-09",
+      "end": "2024-04-06",
+      "sessions": 24,
+      "turns": 216,
+      "kind": "chat",
+      "status": "unplanned",
+      "nodes": [
+        "stage_anchoring",
+        "theme_fragments"
+      ],
+      "fact": "24 次会话，约 216 轮对话，类型：日常问答",
+      "id": "ev_158"
+    },
+    {
+      "source": "claude",
+      "type": "ai_session",
+      "start": "2024-03-25",
+      "end": "2024-05-22",
+      "sessions": 50,
+      "turns": 200,
+      "kind": "writing",
+      "status": "unplanned",
+      "nodes": [
+        "stage_anchoring",
+        "theme_artifacts"
+      ],
+      "fact": "50 次会话，约 200 轮对话，类型：写作",
+      "id": "ev_159"
+    },
+    {
+      "source": "chatgpt",
+      "type": "ai_session",
+      "start": "2024-03-28",
+      "end": "2024-05-25",
+      "sessions": 17,
+      "turns": 68,
+      "kind": "chat",
+      "status": "unplanned",
+      "nodes": [
+        "stage_anchoring",
+        "theme_fragments"
+      ],
+      "fact": "17 次会话，约 68 轮对话，类型：日常问答",
+      "id": "ev_160"
+    },
+    {
+      "type": "creative",
+      "start": "2024-04-03",
+      "end": "2024-06-30",
+      "files": 7,
+      "kind": "设计",
+      "id": "ev_161",
+      "nodes": [
+        "stage_anchoring",
+        "theme_artifacts"
+      ],
+      "status": "unplanned",
+      "fact": "7 个设计文件",
+      "source": "icloud"
+    },
+    {
+      "source": "linkedin",
+      "type": "career",
+      "start": "2024-04-03",
+      "end": "2026-01-23",
+      "status": "unplanned",
+      "kind": "职位",
+      "months": 22,
+      "org": "示例机构 B",
+      "nodes": [
+        "stage_anchoring",
+        "theme_artifacts"
+      ],
+      "fact": "职位，持续 22 个月，机构：示例机构 B",
+      "id": "ev_162",
+      "orgI18n": {
+        "zh": "示例机构 B",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "footprint",
+      "start": "2024-04-04",
+      "end": "2024-04-09",
+      "place": "远汀",
+      "days": 6,
+      "photos": 146,
+      "id": "ev_163",
+      "nodes": [
+        "stage_anchoring",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "6 天，包含 146 张照片或视频，地点：远汀",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "远汀",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "source": "gemini",
+      "type": "ai_session",
+      "start": "2024-04-14",
+      "end": "2024-07-11",
+      "sessions": 18,
+      "turns": 234,
+      "kind": "chat",
+      "status": "unplanned",
+      "nodes": [
+        "stage_anchoring",
+        "theme_fragments"
+      ],
+      "fact": "18 次会话，约 234 轮对话，类型：日常问答",
+      "id": "ev_164"
+    },
+    {
+      "source": "chatgpt",
+      "type": "ai_session",
+      "start": "2024-04-16",
+      "end": "2024-05-14",
+      "sessions": 53,
+      "turns": 583,
+      "kind": "code",
+      "status": "unplanned",
+      "nodes": [
+        "stage_anchoring",
+        "theme_artifacts"
+      ],
+      "fact": "53 次会话，约 583 轮对话，类型：编程",
+      "id": "ev_165"
+    },
+    {
+      "type": "footprint",
+      "start": "2024-04-21",
+      "end": "2024-05-02",
+      "place": "霁山",
+      "days": 12,
+      "photos": 1021,
+      "id": "ev_166",
+      "nodes": [
+        "stage_anchoring",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "12 天，包含 1021 张照片或视频，地点：霁山",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "霁山",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "source": "chatgpt",
+      "type": "ai_session",
+      "start": "2024-05-17",
+      "end": "2024-08-13",
+      "sessions": 4,
+      "turns": 32,
+      "kind": "writing",
+      "status": "unplanned",
+      "nodes": [
+        "stage_anchoring",
+        "theme_artifacts"
+      ],
+      "fact": "4 次会话，约 32 轮对话，类型：写作",
+      "id": "ev_167"
+    },
+    {
+      "type": "footprint",
+      "start": "2024-05-26",
+      "end": "2024-06-08",
+      "place": "洛安",
+      "days": 14,
+      "photos": 241,
+      "id": "ev_168",
+      "nodes": [
+        "stage_anchoring",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "14 天，包含 241 张照片或视频，地点：洛安",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "洛安",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "source": "instagram",
+      "type": "social_post",
+      "start": "2024-06-02",
+      "end": "2024-07-30",
+      "status": "unplanned",
+      "posts": 17,
+      "media": 29,
+      "place": null,
+      "nodes": [
+        "stage_anchoring",
+        "theme_artifacts"
+      ],
+      "fact": "17 条动态，包含 29 张照片或视频",
+      "id": "ev_169"
+    },
+    {
+      "source": "instagram",
+      "type": "conversation",
+      "start": "2024-06-05",
+      "end": "2024-09-28",
+      "status": "unplanned",
+      "messages": 855,
+      "who": "林夏",
+      "nodes": [
+        "stage_anchoring",
+        "people_林夏"
+      ],
+      "fact": "115 天内 855 条往来",
+      "id": "ev_170"
+    },
+    {
+      "type": "creative",
+      "start": "2024-06-09",
+      "end": "2024-08-06",
+      "files": 23,
+      "kind": "影像",
+      "id": "ev_171",
+      "nodes": [
+        "stage_anchoring",
+        "theme_artifacts"
+      ],
+      "status": "unplanned",
+      "fact": "23 个影像文件",
+      "source": "icloud"
+    },
+    {
+      "source": "linkedin",
+      "type": "connection",
+      "start": "2024-06-17",
+      "end": "2024-08-16",
+      "status": "unplanned",
+      "added": 73,
+      "nodes": [
+        "stage_anchoring",
+        "people_other"
+      ],
+      "fact": "新增 73 位联系人",
+      "id": "ev_172"
+    },
+    {
+      "type": "notes",
+      "start": "2024-07-18",
+      "end": "2024-09-14",
+      "items": 6,
+      "id": "ev_173",
+      "nodes": [
+        "stage_anchoring",
+        "theme_fragments"
+      ],
+      "status": "unplanned",
+      "fact": "6 条备忘",
+      "source": "notes"
+    },
+    {
+      "type": "footprint",
+      "start": "2024-08-03",
+      "end": "2024-08-04",
+      "place": "听雪",
+      "days": 2,
+      "photos": 406,
+      "id": "ev_174",
+      "nodes": [
+        "stage_anchoring",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "2 天，包含 406 张照片或视频，地点：听雪",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "听雪",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "footprint",
+      "start": "2024-08-14",
+      "end": "2024-08-16",
+      "place": "松间",
+      "days": 3,
+      "photos": 293,
+      "id": "ev_175",
+      "nodes": [
+        "stage_anchoring",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "3 天，包含 293 张照片或视频，地点：松间",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "松间",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "footprint",
+      "start": "2024-08-18",
+      "end": "2024-08-18",
+      "place": "听雪",
+      "days": 1,
+      "photos": 344,
+      "id": "ev_176",
+      "nodes": [
+        "stage_anchoring",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "1 天，包含 344 张照片或视频，地点：听雪",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "听雪",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "creative",
+      "start": "2024-08-21",
+      "end": "2024-10-18",
+      "files": 6,
+      "kind": "影像",
+      "id": "ev_177",
+      "nodes": [
+        "stage_anchoring",
+        "theme_artifacts"
+      ],
+      "status": "unplanned",
+      "fact": "6 个影像文件",
+      "source": "icloud"
+    },
+    {
+      "source": "cursor",
+      "type": "ai_session",
+      "start": "2024-08-29",
+      "end": "2024-09-26",
+      "sessions": 42,
+      "turns": 504,
+      "kind": "code",
+      "status": "unplanned",
+      "nodes": [
+        "stage_anchoring",
+        "theme_artifacts"
+      ],
+      "fact": "42 次会话，约 504 轮对话，类型：编程",
+      "id": "ev_178"
+    },
+    {
+      "type": "creative",
+      "start": "2024-09-15",
+      "end": "2024-10-13",
+      "files": 8,
+      "kind": "文稿",
+      "id": "ev_179",
+      "nodes": [
+        "stage_anchoring",
+        "theme_artifacts"
+      ],
+      "status": "unplanned",
+      "fact": "8 个文稿文件",
+      "source": "icloud"
+    },
+    {
+      "type": "conversation",
+      "start": "2024-10-10",
+      "end": "2025-08-09",
+      "messages": 490,
+      "who": "许安",
+      "id": "ev_180",
+      "nodes": [
+        "stage_anchoring",
+        "people_许安"
+      ],
+      "status": "unplanned",
+      "fact": "303 天内 490 条往来",
+      "source": "imessage"
+    },
+    {
+      "type": "footprint",
+      "start": "2024-10-23",
+      "end": "2024-11-09",
+      "place": "听雪",
+      "days": 18,
+      "photos": 35,
+      "id": "ev_181",
+      "nodes": [
+        "stage_anchoring",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "18 天，包含 35 张照片或视频，地点：听雪",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "听雪",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "calendar",
+      "start": "2024-11-02",
+      "end": "2025-01-29",
+      "items": 6,
+      "id": "ev_182",
+      "nodes": [
+        "stage_anchoring",
+        "theme_fragments"
+      ],
+      "status": "unplanned",
+      "fact": "6 条日程",
+      "source": "calendar"
+    },
+    {
+      "source": "gemini",
+      "type": "ai_session",
+      "start": "2024-11-02",
+      "end": "2024-11-30",
+      "sessions": 22,
+      "turns": 88,
+      "kind": "writing",
+      "status": "unplanned",
+      "nodes": [
+        "stage_anchoring",
+        "theme_artifacts"
+      ],
+      "fact": "22 次会话，约 88 轮对话，类型：写作",
+      "id": "ev_183"
+    },
+    {
+      "type": "footprint",
+      "start": "2024-11-12",
+      "end": "2024-11-13",
+      "place": "栖海",
+      "days": 2,
+      "photos": 647,
+      "id": "ev_184",
+      "nodes": [
+        "stage_anchoring",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "2 天，包含 647 张照片或视频，地点：栖海",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "栖海",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "source": "instagram",
+      "type": "social_post",
+      "start": "2024-11-14",
+      "end": "2025-02-10",
+      "status": "unplanned",
+      "posts": 18,
+      "media": 36,
+      "place": null,
+      "nodes": [
+        "stage_anchoring",
+        "theme_fragments"
+      ],
+      "fact": "18 条动态，包含 36 张照片或视频",
+      "id": "ev_185"
+    },
+    {
+      "source": "claude",
+      "type": "ai_session",
+      "start": "2024-11-22",
+      "end": "2024-12-20",
+      "sessions": 48,
+      "turns": 432,
+      "kind": "code",
+      "status": "unplanned",
+      "nodes": [
+        "stage_anchoring",
+        "theme_artifacts"
+      ],
+      "fact": "48 次会话，约 432 轮对话，类型：编程",
+      "id": "ev_186"
+    },
+    {
+      "type": "footprint",
+      "start": "2024-12-09",
+      "end": "2024-12-09",
+      "place": "霁山",
+      "days": 1,
+      "photos": 310,
+      "id": "ev_187",
+      "nodes": [
+        "stage_anchoring",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "1 天，包含 310 张照片或视频，地点：霁山",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "霁山",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "notes",
+      "start": "2024-12-24",
+      "end": "2025-01-21",
+      "items": 21,
+      "id": "ev_188",
+      "nodes": [
+        "stage_anchoring",
+        "theme_fragments"
+      ],
+      "status": "unplanned",
+      "fact": "21 条备忘",
+      "source": "notes"
+    },
+    {
+      "source": "claude",
+      "type": "ai_session",
+      "start": "2025-01-07",
+      "end": "2025-04-05",
+      "sessions": 5,
+      "turns": 25,
+      "kind": "code",
+      "status": "unplanned",
+      "nodes": [
+        "stage_current",
+        "theme_artifacts"
+      ],
+      "fact": "5 次会话，约 25 轮对话，类型：编程",
+      "id": "ev_189"
+    },
+    {
+      "type": "conversation",
+      "start": "2025-01-09",
+      "end": "2025-10-17",
+      "messages": 349,
+      "who": "林夏",
+      "id": "ev_190",
+      "nodes": [
+        "stage_current",
+        "people_林夏"
+      ],
+      "status": "unplanned",
+      "fact": "281 天内 349 条往来",
+      "source": "imessage"
+    },
+    {
+      "source": "cursor",
+      "type": "ai_session",
+      "start": "2025-01-23",
+      "end": "2025-03-22",
+      "sessions": 24,
+      "turns": 288,
+      "kind": "code",
+      "status": "unplanned",
+      "nodes": [
+        "stage_current",
+        "theme_artifacts"
+      ],
+      "fact": "24 次会话，约 288 轮对话，类型：编程",
+      "id": "ev_191"
+    },
+    {
+      "type": "conversation",
+      "start": "2025-02-01",
+      "end": "2025-11-29",
+      "messages": 2599,
+      "who": "林夏",
+      "id": "ev_192",
+      "nodes": [
+        "stage_current",
+        "people_林夏"
+      ],
+      "status": "unplanned",
+      "fact": "301 天内 2599 条往来",
+      "source": "imessage"
+    },
+    {
+      "type": "calendar",
+      "start": "2025-02-07",
+      "end": "2025-04-06",
+      "items": 10,
+      "id": "ev_193",
+      "nodes": [
+        "stage_current",
+        "theme_fragments"
+      ],
+      "status": "unplanned",
+      "fact": "10 条日程",
+      "source": "calendar"
+    },
+    {
+      "type": "notes",
+      "start": "2025-02-08",
+      "end": "2025-05-07",
+      "items": 15,
+      "id": "ev_194",
+      "nodes": [
+        "stage_current",
+        "theme_fragments"
+      ],
+      "status": "unplanned",
+      "fact": "15 条备忘",
+      "source": "notes"
+    },
+    {
+      "source": "chatgpt",
+      "type": "ai_session",
+      "start": "2025-02-10",
+      "end": "2025-04-09",
+      "sessions": 43,
+      "turns": 559,
+      "kind": "code",
+      "status": "unplanned",
+      "nodes": [
+        "stage_current",
+        "theme_artifacts"
+      ],
+      "fact": "43 次会话，约 559 轮对话，类型：编程",
+      "id": "ev_195"
+    },
+    {
+      "source": "chatgpt",
+      "type": "ai_session",
+      "start": "2025-02-17",
+      "end": "2025-05-16",
+      "sessions": 13,
+      "turns": 143,
+      "kind": "code",
+      "status": "unplanned",
+      "nodes": [
+        "stage_current",
+        "theme_artifacts"
+      ],
+      "fact": "13 次会话，约 143 轮对话，类型：编程",
+      "id": "ev_196"
+    },
+    {
+      "source": "gemini",
+      "type": "ai_session",
+      "start": "2025-02-25",
+      "end": "2025-03-25",
+      "sessions": 11,
+      "turns": 154,
+      "kind": "image",
+      "status": "unplanned",
+      "nodes": [
+        "stage_current",
+        "theme_artifacts"
+      ],
+      "fact": "11 次会话，约 154 轮对话，类型：图像",
+      "id": "ev_197"
+    },
+    {
+      "type": "footprint",
+      "start": "2025-02-26",
+      "end": "2025-03-09",
+      "place": "云岭",
+      "days": 12,
+      "photos": 85,
+      "id": "ev_198",
+      "nodes": [
+        "stage_current",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "12 天，包含 85 张照片或视频，地点：云岭",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "云岭",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "footprint",
+      "start": "2025-02-28",
+      "end": "2025-03-12",
+      "place": "松间",
+      "days": 13,
+      "photos": 200,
+      "id": "ev_199",
+      "nodes": [
+        "stage_current",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "13 天，包含 200 张照片或视频，地点：松间",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "松间",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "footprint",
+      "start": "2025-03-02",
+      "end": "2025-03-12",
+      "place": "远汀",
+      "days": 11,
+      "photos": 983,
+      "id": "ev_200",
+      "nodes": [
+        "stage_current",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "11 天，包含 983 张照片或视频，地点：远汀",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "远汀",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "footprint",
+      "start": "2025-03-04",
+      "end": "2025-03-05",
+      "place": "洛安",
+      "days": 2,
+      "photos": 115,
+      "id": "ev_201",
+      "nodes": [
+        "stage_current",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "2 天，包含 115 张照片或视频，地点：洛安",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "洛安",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "footprint",
+      "start": "2025-03-17",
+      "end": "2025-03-23",
+      "place": "松间",
+      "days": 7,
+      "photos": 294,
+      "id": "ev_202",
+      "nodes": [
+        "stage_current",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "7 天，包含 294 张照片或视频，地点：松间",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "松间",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "source": "chatgpt",
+      "type": "ai_session",
+      "start": "2025-03-17",
+      "end": "2025-05-14",
+      "sessions": 59,
+      "turns": 413,
+      "kind": "code",
+      "status": "unplanned",
+      "nodes": [
+        "stage_current",
+        "theme_artifacts"
+      ],
+      "fact": "59 次会话，约 413 轮对话，类型：编程",
+      "id": "ev_203"
+    },
+    {
+      "type": "notes",
+      "start": "2025-03-22",
+      "end": "2025-05-19",
+      "items": 2,
+      "id": "ev_204",
+      "nodes": [
+        "stage_current",
+        "theme_fragments"
+      ],
+      "status": "unplanned",
+      "fact": "2 条备忘",
+      "source": "notes"
+    },
+    {
+      "source": "instagram",
+      "type": "conversation",
+      "start": "2025-03-22",
+      "end": "2026-01-01",
+      "status": "unplanned",
+      "messages": 523,
+      "who": "许安",
+      "nodes": [
+        "stage_current",
+        "people_许安"
+      ],
+      "fact": "285 天内 523 条往来",
+      "id": "ev_205"
+    },
+    {
+      "type": "footprint",
+      "start": "2025-04-02",
+      "end": "2025-04-08",
+      "place": "临川",
+      "days": 7,
+      "photos": 662,
+      "id": "ev_206",
+      "nodes": [
+        "stage_current",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "7 天，包含 662 张照片或视频，地点：临川",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "临川",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "footprint",
+      "start": "2025-04-14",
+      "end": "2025-04-14",
+      "place": "白石湾",
+      "days": 1,
+      "photos": 405,
+      "id": "ev_207",
+      "nodes": [
+        "stage_current",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "1 天，包含 405 张照片或视频，地点：白石湾",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "白石湾",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "source": "cursor",
+      "type": "ai_session",
+      "start": "2025-04-20",
+      "end": "2025-05-18",
+      "sessions": 35,
+      "turns": 385,
+      "kind": "code",
+      "status": "unplanned",
+      "nodes": [
+        "stage_current",
+        "theme_artifacts"
+      ],
+      "fact": "35 次会话，约 385 轮对话，类型：编程",
+      "id": "ev_208"
+    },
+    {
+      "source": "chatgpt",
+      "type": "ai_session",
+      "start": "2025-04-21",
+      "end": "2025-07-18",
+      "sessions": 48,
+      "turns": 384,
+      "kind": "code",
+      "status": "unplanned",
+      "nodes": [
+        "stage_current",
+        "theme_artifacts"
+      ],
+      "fact": "48 次会话，约 384 轮对话，类型：编程",
+      "id": "ev_209"
+    },
+    {
+      "type": "calendar",
+      "start": "2025-04-23",
+      "end": "2025-06-20",
+      "items": 10,
+      "id": "ev_210",
+      "nodes": [
+        "stage_current",
+        "theme_fragments"
+      ],
+      "status": "unplanned",
+      "fact": "10 条日程",
+      "source": "calendar"
+    },
+    {
+      "type": "calendar",
+      "start": "2025-04-25",
+      "end": "2025-07-22",
+      "items": 11,
+      "id": "ev_211",
+      "nodes": [
+        "stage_current",
+        "theme_fragments"
+      ],
+      "status": "unplanned",
+      "fact": "11 条日程",
+      "source": "calendar"
+    },
+    {
+      "source": "claude",
+      "type": "ai_session",
+      "start": "2025-04-27",
+      "end": "2025-05-25",
+      "sessions": 50,
+      "turns": 350,
+      "kind": "chat",
+      "status": "unplanned",
+      "nodes": [
+        "stage_current",
+        "theme_fragments"
+      ],
+      "fact": "50 次会话，约 350 轮对话，类型：日常问答",
+      "id": "ev_212"
+    },
+    {
+      "source": "codex",
+      "type": "ai_session",
+      "start": "2025-05-05",
+      "end": "2025-06-02",
+      "sessions": 52,
+      "turns": 624,
+      "kind": "code",
+      "status": "unplanned",
+      "nodes": [
+        "stage_current",
+        "theme_artifacts"
+      ],
+      "fact": "52 次会话，约 624 轮对话，类型：编程",
+      "id": "ev_213"
+    },
+    {
+      "type": "footprint",
+      "start": "2025-05-07",
+      "end": "2025-05-18",
+      "place": "渡口",
+      "days": 12,
+      "photos": 93,
+      "id": "ev_214",
+      "nodes": [
+        "stage_current",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "12 天，包含 93 张照片或视频，地点：渡口",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "渡口",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "footprint",
+      "start": "2025-05-12",
+      "end": "2025-05-17",
+      "place": "南屿",
+      "days": 6,
+      "photos": 121,
+      "id": "ev_215",
+      "nodes": [
+        "stage_current",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "6 天，包含 121 张照片或视频，地点：南屿",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "南屿",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "source": "codex",
+      "type": "ai_session",
+      "start": "2025-05-17",
+      "end": "2025-07-14",
+      "sessions": 56,
+      "turns": 224,
+      "kind": "code",
+      "status": "unplanned",
+      "nodes": [
+        "stage_current",
+        "theme_artifacts"
+      ],
+      "fact": "56 次会话，约 224 轮对话，类型：编程",
+      "id": "ev_216"
+    },
+    {
+      "source": "codex",
+      "type": "ai_session",
+      "start": "2025-05-29",
+      "end": "2025-07-26",
+      "sessions": 59,
+      "turns": 767,
+      "kind": "code",
+      "status": "unplanned",
+      "nodes": [
+        "stage_current",
+        "theme_artifacts"
+      ],
+      "fact": "59 次会话，约 767 轮对话，类型：编程",
+      "id": "ev_217"
+    },
+    {
+      "type": "notes",
+      "start": "2025-06-01",
+      "end": "2025-07-29",
+      "items": 14,
+      "id": "ev_218",
+      "nodes": [
+        "stage_current",
+        "theme_fragments"
+      ],
+      "status": "unplanned",
+      "fact": "14 条备忘",
+      "source": "notes"
+    },
+    {
+      "source": "instagram",
+      "type": "social_post",
+      "start": "2025-06-04",
+      "end": "2025-08-31",
+      "status": "unplanned",
+      "posts": 6,
+      "media": 7,
+      "place": null,
+      "nodes": [
+        "stage_current",
+        "theme_fragments"
+      ],
+      "fact": "6 条动态，包含 7 张照片或视频",
+      "id": "ev_219"
+    },
+    {
+      "type": "calendar",
+      "start": "2025-06-08",
+      "end": "2025-09-04",
+      "items": 27,
+      "id": "ev_220",
+      "nodes": [
+        "stage_current",
+        "theme_fragments"
+      ],
+      "status": "unplanned",
+      "fact": "27 条日程",
+      "source": "calendar"
+    },
+    {
+      "type": "footprint",
+      "start": "2025-06-14",
+      "end": "2025-06-18",
+      "place": "听雪",
+      "days": 5,
+      "photos": 1002,
+      "id": "ev_221",
+      "nodes": [
+        "stage_current",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "5 天，包含 1002 张照片或视频，地点：听雪",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "听雪",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "source": "instagram",
+      "type": "social_post",
+      "start": "2025-06-15",
+      "end": "2025-08-12",
+      "status": "unplanned",
+      "posts": 34,
+      "media": 63,
+      "place": null,
+      "nodes": [
+        "stage_current",
+        "theme_fragments"
+      ],
+      "fact": "34 条动态，包含 63 张照片或视频",
+      "id": "ev_222"
+    },
+    {
+      "source": "linkedin",
+      "type": "social_post",
+      "start": "2025-07-22",
+      "end": "2025-08-19",
+      "status": "unplanned",
+      "posts": 5,
+      "media": 7,
+      "place": null,
+      "nodes": [
+        "stage_current",
+        "theme_artifacts"
+      ],
+      "fact": "5 条动态，包含 7 张照片或视频",
+      "id": "ev_223"
+    },
+    {
+      "source": "gemini",
+      "type": "ai_session",
+      "start": "2025-07-22",
+      "end": "2025-09-18",
+      "sessions": 49,
+      "turns": 245,
+      "kind": "writing",
+      "status": "unplanned",
+      "nodes": [
+        "stage_current",
+        "theme_artifacts"
+      ],
+      "fact": "49 次会话，约 245 轮对话，类型：写作",
+      "id": "ev_224"
+    },
+    {
+      "source": "chatgpt",
+      "type": "ai_session",
+      "start": "2025-07-23",
+      "end": "2025-10-19",
+      "sessions": 28,
+      "turns": 168,
+      "kind": "chat",
+      "status": "unplanned",
+      "nodes": [
+        "stage_current",
+        "theme_fragments"
+      ],
+      "fact": "28 次会话，约 168 轮对话，类型：日常问答",
+      "id": "ev_225"
+    },
+    {
+      "type": "footprint",
+      "start": "2025-08-05",
+      "end": "2025-08-05",
+      "place": "渡口",
+      "days": 1,
+      "photos": 178,
+      "id": "ev_226",
+      "nodes": [
+        "stage_current",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "1 天，包含 178 张照片或视频，地点：渡口",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "渡口",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "footprint",
+      "start": "2025-08-15",
+      "end": "2025-08-18",
+      "place": "松间",
+      "days": 4,
+      "photos": 105,
+      "id": "ev_227",
+      "nodes": [
+        "stage_current",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "4 天，包含 105 张照片或视频，地点：松间",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "松间",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "source": "claude",
+      "type": "ai_session",
+      "start": "2025-08-26",
+      "end": "2025-10-23",
+      "sessions": 45,
+      "turns": 495,
+      "kind": "chat",
+      "status": "unplanned",
+      "nodes": [
+        "stage_current",
+        "theme_fragments"
+      ],
+      "fact": "45 次会话，约 495 轮对话，类型：日常问答",
+      "id": "ev_228"
+    },
+    {
+      "type": "footprint",
+      "start": "2025-09-05",
+      "end": "2025-09-08",
+      "place": "白石湾",
+      "days": 4,
+      "photos": 244,
+      "id": "ev_229",
+      "nodes": [
+        "stage_current",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "4 天，包含 244 张照片或视频，地点：白石湾",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "白石湾",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "source": "chatgpt",
+      "type": "ai_session",
+      "start": "2025-09-06",
+      "end": "2025-12-03",
+      "sessions": 29,
+      "turns": 319,
+      "kind": "chat",
+      "status": "unplanned",
+      "nodes": [
+        "stage_current",
+        "theme_fragments"
+      ],
+      "fact": "29 次会话，约 319 轮对话，类型：日常问答",
+      "id": "ev_230"
+    },
+    {
+      "source": "cursor",
+      "type": "ai_session",
+      "start": "2025-09-07",
+      "end": "2025-11-04",
+      "sessions": 12,
+      "turns": 108,
+      "kind": "code",
+      "status": "unplanned",
+      "nodes": [
+        "stage_current",
+        "theme_artifacts"
+      ],
+      "fact": "12 次会话，约 108 轮对话，类型：编程",
+      "id": "ev_231"
+    },
+    {
+      "source": "instagram",
+      "type": "social_post",
+      "start": "2025-09-08",
+      "end": "2025-12-05",
+      "status": "unplanned",
+      "posts": 18,
+      "media": 40,
+      "place": null,
+      "nodes": [
+        "stage_current",
+        "theme_fragments"
+      ],
+      "fact": "18 条动态，包含 40 张照片或视频",
+      "id": "ev_232"
+    },
+    {
+      "source": "gemini",
+      "type": "ai_session",
+      "start": "2025-09-15",
+      "end": "2025-12-12",
+      "sessions": 9,
+      "turns": 117,
+      "kind": "writing",
+      "status": "unplanned",
+      "nodes": [
+        "stage_current",
+        "theme_artifacts"
+      ],
+      "fact": "9 次会话，约 117 轮对话，类型：写作",
+      "id": "ev_233"
+    },
+    {
+      "type": "footprint",
+      "start": "2025-09-18",
+      "end": "2025-09-21",
+      "place": "听雪",
+      "days": 4,
+      "photos": 168,
+      "id": "ev_234",
+      "nodes": [
+        "stage_current",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "4 天，包含 168 张照片或视频，地点：听雪",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "听雪",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "footprint",
+      "start": "2025-10-08",
+      "end": "2025-10-08",
+      "place": "青禾",
+      "days": 1,
+      "photos": 334,
+      "id": "ev_235",
+      "nodes": [
+        "stage_current",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "1 天，包含 334 张照片或视频，地点：青禾",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "青禾",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "source": "claude",
+      "type": "ai_session",
+      "start": "2025-10-10",
+      "end": "2026-01-06",
+      "sessions": 12,
+      "turns": 168,
+      "kind": "code",
+      "status": "unplanned",
+      "nodes": [
+        "stage_current",
+        "theme_artifacts"
+      ],
+      "fact": "12 次会话，约 168 轮对话，类型：编程",
+      "id": "ev_236"
+    },
+    {
+      "type": "notes",
+      "start": "2025-10-11",
+      "end": "2025-11-08",
+      "items": 6,
+      "id": "ev_237",
+      "nodes": [
+        "stage_current",
+        "theme_fragments"
+      ],
+      "status": "unplanned",
+      "fact": "6 条备忘",
+      "source": "notes"
+    },
+    {
+      "type": "footprint",
+      "start": "2025-10-14",
+      "end": "2025-10-17",
+      "place": "南屿",
+      "days": 4,
+      "photos": 173,
+      "id": "ev_238",
+      "nodes": [
+        "stage_current",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "4 天，包含 173 张照片或视频，地点：南屿",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "南屿",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "footprint",
+      "start": "2025-11-02",
+      "end": "2025-11-03",
+      "place": "栖海",
+      "days": 2,
+      "photos": 67,
+      "id": "ev_239",
+      "nodes": [
+        "stage_current",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "2 天，包含 67 张照片或视频，地点：栖海",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "栖海",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "source": "instagram",
+      "type": "social_post",
+      "start": "2025-11-02",
+      "end": "2025-12-30",
+      "status": "unplanned",
+      "posts": 23,
+      "media": 25,
+      "place": null,
+      "nodes": [
+        "stage_current",
+        "theme_fragments"
+      ],
+      "fact": "23 条动态，包含 25 张照片或视频",
+      "id": "ev_240"
+    },
+    {
+      "type": "footprint",
+      "start": "2025-11-17",
+      "end": "2025-12-03",
+      "place": "长堤",
+      "days": 17,
+      "photos": 134,
+      "id": "ev_241",
+      "nodes": [
+        "stage_current",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "17 天，包含 134 张照片或视频，地点：长堤",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "长堤",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "footprint",
+      "start": "2025-11-19",
+      "end": "2025-11-19",
+      "place": "栖海",
+      "days": 1,
+      "photos": 269,
+      "id": "ev_242",
+      "nodes": [
+        "stage_current",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "1 天，包含 269 张照片或视频，地点：栖海",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "栖海",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "source": "claude",
+      "type": "ai_session",
+      "start": "2025-11-28",
+      "end": "2026-01-25",
+      "sessions": 43,
+      "turns": 172,
+      "kind": "writing",
+      "status": "unplanned",
+      "nodes": [
+        "stage_current",
+        "theme_artifacts"
+      ],
+      "fact": "43 次会话，约 172 轮对话，类型：写作",
+      "id": "ev_243"
+    },
+    {
+      "source": "mureka",
+      "type": "ai_session",
+      "start": "2025-11-28",
+      "end": "2026-01-25",
+      "sessions": 48,
+      "turns": 384,
+      "kind": "music",
+      "status": "unplanned",
+      "nodes": [
+        "stage_current",
+        "theme_artifacts"
+      ],
+      "fact": "48 次会话，约 384 轮对话，类型：音乐",
+      "id": "ev_244"
+    },
+    {
+      "type": "creative",
+      "start": "2025-12-03",
+      "end": "2026-01-30",
+      "files": 53,
+      "kind": "3D",
+      "id": "ev_245",
+      "nodes": [
+        "stage_current",
+        "theme_artifacts"
+      ],
+      "status": "unplanned",
+      "fact": "53 个3D文件",
+      "source": "icloud"
+    },
+    {
+      "type": "footprint",
+      "start": "2025-12-08",
+      "end": "2025-12-09",
+      "place": "松间",
+      "days": 2,
+      "photos": 48,
+      "id": "ev_246",
+      "nodes": [
+        "stage_current",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "2 天，包含 48 张照片或视频，地点：松间",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "松间",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "creative",
+      "start": "2025-12-09",
+      "end": "2026-02-05",
+      "files": 9,
+      "kind": "3D",
+      "id": "ev_247",
+      "nodes": [
+        "stage_current",
+        "theme_artifacts"
+      ],
+      "status": "unplanned",
+      "fact": "9 个3D文件",
+      "source": "icloud"
+    },
+    {
+      "type": "conversation",
+      "start": "2025-12-11",
+      "end": "2026-05-18",
+      "messages": 3574,
+      "who": "林夏",
+      "id": "ev_248",
+      "nodes": [
+        "stage_current",
+        "people_林夏"
+      ],
+      "status": "unplanned",
+      "fact": "158 天内 3574 条往来",
+      "source": "imessage"
+    },
+    {
+      "type": "footprint",
+      "start": "2025-12-19",
+      "end": "2025-12-19",
+      "place": "长堤",
+      "days": 1,
+      "photos": 89,
+      "id": "ev_249",
+      "nodes": [
+        "stage_current",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "1 天，包含 89 张照片或视频，地点：长堤",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "长堤",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "creative",
+      "start": "2026-01-10",
+      "end": "2026-03-09",
+      "files": 22,
+      "kind": "演示",
+      "id": "ev_250",
+      "nodes": [
+        "stage_current",
+        "theme_artifacts"
+      ],
+      "status": "unplanned",
+      "fact": "22 个演示文件",
+      "source": "icloud"
+    },
+    {
+      "source": "instagram",
+      "type": "social_post",
+      "start": "2026-01-27",
+      "end": "2026-04-25",
+      "status": "unplanned",
+      "posts": 17,
+      "media": 19,
+      "place": null,
+      "nodes": [
+        "stage_current",
+        "theme_fragments"
+      ],
+      "fact": "17 条动态，包含 19 张照片或视频",
+      "id": "ev_251"
+    },
+    {
+      "type": "footprint",
+      "start": "2026-01-30",
+      "end": "2026-02-12",
+      "place": "渡口",
+      "days": 14,
+      "photos": 1010,
+      "id": "ev_252",
+      "nodes": [
+        "stage_current",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "14 天，包含 1010 张照片或视频，地点：渡口",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "渡口",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "source": "chatgpt",
+      "type": "ai_session",
+      "start": "2026-01-30",
+      "end": "2026-04-28",
+      "sessions": 35,
+      "turns": 385,
+      "kind": "writing",
+      "status": "unplanned",
+      "nodes": [
+        "stage_current",
+        "theme_artifacts"
+      ],
+      "fact": "35 次会话，约 385 轮对话，类型：写作",
+      "id": "ev_253"
+    },
+    {
+      "type": "footprint",
+      "start": "2026-02-05",
+      "end": "2026-02-05",
+      "place": "临川",
+      "days": 1,
+      "photos": 371,
+      "id": "ev_254",
+      "nodes": [
+        "stage_current",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "1 天，包含 371 张照片或视频，地点：临川",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "临川",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "notes",
+      "start": "2026-02-11",
+      "end": "2026-04-10",
+      "items": 5,
+      "id": "ev_255",
+      "nodes": [
+        "stage_current",
+        "theme_fragments"
+      ],
+      "status": "unplanned",
+      "fact": "5 条备忘",
+      "source": "notes"
+    },
+    {
+      "source": "mureka",
+      "type": "ai_session",
+      "start": "2026-02-11",
+      "end": "2026-04-10",
+      "sessions": 28,
+      "turns": 364,
+      "kind": "music",
+      "status": "unplanned",
+      "nodes": [
+        "stage_current",
+        "theme_artifacts"
+      ],
+      "fact": "28 次会话，约 364 轮对话，类型：音乐",
+      "id": "ev_256"
+    },
+    {
+      "type": "footprint",
+      "start": "2026-02-15",
+      "end": "2026-02-21",
+      "place": "青禾",
+      "days": 7,
+      "photos": 360,
+      "id": "ev_257",
+      "nodes": [
+        "stage_current",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "7 天，包含 360 张照片或视频，地点：青禾",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "青禾",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "source": "gemini",
+      "type": "ai_session",
+      "start": "2026-02-15",
+      "end": "2026-03-15",
+      "sessions": 10,
+      "turns": 90,
+      "kind": "writing",
+      "status": "unplanned",
+      "nodes": [
+        "stage_current",
+        "theme_artifacts"
+      ],
+      "fact": "10 次会话，约 90 轮对话，类型：写作",
+      "id": "ev_258"
+    },
+    {
+      "type": "footprint",
+      "start": "2026-02-23",
+      "end": "2026-02-23",
+      "place": "云岭",
+      "days": 1,
+      "photos": 671,
+      "id": "ev_259",
+      "nodes": [
+        "stage_current",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "1 天，包含 671 张照片或视频，地点：云岭",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "云岭",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "source": "claude",
+      "type": "ai_session",
+      "start": "2026-02-23",
+      "end": "2026-05-22",
+      "sessions": 33,
+      "turns": 165,
+      "kind": "code",
+      "status": "unplanned",
+      "nodes": [
+        "stage_current",
+        "theme_artifacts"
+      ],
+      "fact": "33 次会话，约 165 轮对话，类型：编程",
+      "id": "ev_260"
+    },
+    {
+      "source": "claude",
+      "type": "ai_session",
+      "start": "2026-02-28",
+      "end": "2026-03-28",
+      "sessions": 59,
+      "turns": 708,
+      "kind": "code",
+      "status": "unplanned",
+      "nodes": [
+        "stage_current",
+        "theme_artifacts"
+      ],
+      "fact": "59 次会话，约 708 轮对话，类型：编程",
+      "id": "ev_261"
+    },
+    {
+      "source": "chatgpt",
+      "type": "ai_session",
+      "start": "2026-03-04",
+      "end": "2026-04-01",
+      "sessions": 46,
+      "turns": 276,
+      "kind": "code",
+      "status": "unplanned",
+      "nodes": [
+        "stage_current",
+        "theme_artifacts"
+      ],
+      "fact": "46 次会话，约 276 轮对话，类型：编程",
+      "id": "ev_262"
+    },
+    {
+      "type": "footprint",
+      "start": "2026-03-13",
+      "end": "2026-03-15",
+      "place": "青禾",
+      "days": 3,
+      "photos": 99,
+      "id": "ev_263",
+      "nodes": [
+        "stage_current",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "3 天，包含 99 张照片或视频，地点：青禾",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "青禾",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "source": "cursor",
+      "type": "ai_session",
+      "start": "2026-03-15",
+      "end": "2026-05-12",
+      "sessions": 56,
+      "turns": 560,
+      "kind": "code",
+      "status": "unplanned",
+      "nodes": [
+        "stage_current",
+        "theme_artifacts"
+      ],
+      "fact": "56 次会话，约 560 轮对话，类型：编程",
+      "id": "ev_264"
+    },
+    {
+      "source": "codex",
+      "type": "ai_session",
+      "start": "2026-03-20",
+      "end": "2026-04-17",
+      "sessions": 39,
+      "turns": 351,
+      "kind": "code",
+      "status": "unplanned",
+      "nodes": [
+        "stage_current",
+        "theme_artifacts"
+      ],
+      "fact": "39 次会话，约 351 轮对话，类型：编程",
+      "id": "ev_265"
+    },
+    {
+      "type": "conversation",
+      "start": "2026-03-29",
+      "end": "2026-11-04",
+      "messages": 538,
+      "who": "叶青",
+      "id": "ev_266",
+      "nodes": [
+        "stage_current",
+        "people_other"
+      ],
+      "status": "unplanned",
+      "fact": "220 天内 538 条往来",
+      "source": "imessage"
+    },
+    {
+      "source": "claude",
+      "type": "ai_session",
+      "start": "2026-04-04",
+      "end": "2026-05-02",
+      "sessions": 33,
+      "turns": 462,
+      "kind": "code",
+      "status": "unplanned",
+      "nodes": [
+        "stage_current",
+        "theme_artifacts"
+      ],
+      "fact": "33 次会话，约 462 轮对话，类型：编程",
+      "id": "ev_267"
+    },
+    {
+      "source": "codex",
+      "type": "ai_session",
+      "start": "2026-04-07",
+      "end": "2026-06-04",
+      "sessions": 30,
+      "turns": 390,
+      "kind": "code",
+      "status": "unplanned",
+      "nodes": [
+        "stage_current",
+        "theme_artifacts"
+      ],
+      "fact": "30 次会话，约 390 轮对话，类型：编程",
+      "id": "ev_268"
+    },
+    {
+      "type": "footprint",
+      "start": "2026-04-15",
+      "end": "2026-04-20",
+      "place": "听雪",
+      "days": 6,
+      "photos": 132,
+      "id": "ev_269",
+      "nodes": [
+        "stage_current",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "6 天，包含 132 张照片或视频，地点：听雪",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "听雪",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "footprint",
+      "start": "2026-04-26",
+      "end": "2026-05-01",
+      "place": "渡口",
+      "days": 6,
+      "photos": 754,
+      "id": "ev_270",
+      "nodes": [
+        "stage_current",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "6 天，包含 754 张照片或视频，地点：渡口",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "渡口",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "footprint",
+      "start": "2026-04-26",
+      "end": "2026-04-29",
+      "place": "霁山",
+      "days": 4,
+      "photos": 287,
+      "id": "ev_271",
+      "nodes": [
+        "stage_current",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "4 天，包含 287 张照片或视频，地点：霁山",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "霁山",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "source": "chatgpt",
+      "type": "ai_session",
+      "start": "2026-04-26",
+      "end": "2026-06-23",
+      "sessions": 36,
+      "turns": 504,
+      "kind": "code",
+      "status": "unplanned",
+      "nodes": [
+        "stage_current",
+        "theme_artifacts"
+      ],
+      "fact": "36 次会话，约 504 轮对话，类型：编程",
+      "id": "ev_272"
+    },
+    {
+      "type": "footprint",
+      "start": "2026-04-28",
+      "end": "2026-04-28",
+      "place": "栖海",
+      "days": 1,
+      "photos": 429,
+      "id": "ev_273",
+      "nodes": [
+        "stage_current",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "1 天，包含 429 张照片或视频，地点：栖海",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "栖海",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "source": "claude",
+      "type": "ai_session",
+      "start": "2026-04-30",
+      "end": "2026-07-27",
+      "sessions": 51,
+      "turns": 510,
+      "kind": "writing",
+      "status": "unplanned",
+      "nodes": [
+        "stage_current",
+        "theme_artifacts"
+      ],
+      "fact": "51 次会话，约 510 轮对话，类型：写作",
+      "id": "ev_274"
+    },
+    {
+      "type": "footprint",
+      "start": "2026-05-06",
+      "end": "2026-05-06",
+      "place": "长堤",
+      "days": 1,
+      "photos": 342,
+      "id": "ev_275",
+      "nodes": [
+        "stage_current",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "1 天，包含 342 张照片或视频，地点：长堤",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "长堤",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "footprint",
+      "start": "2026-05-27",
+      "end": "2026-05-27",
+      "place": "远汀",
+      "days": 1,
+      "photos": 51,
+      "id": "ev_276",
+      "nodes": [
+        "stage_current",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "1 天，包含 51 张照片或视频，地点：远汀",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "远汀",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "creative",
+      "start": "2026-05-29",
+      "end": "2026-07-26",
+      "files": 20,
+      "kind": "设计",
+      "id": "ev_277",
+      "nodes": [
+        "stage_current",
+        "theme_artifacts"
+      ],
+      "status": "unplanned",
+      "fact": "20 个设计文件",
+      "source": "icloud"
+    },
+    {
+      "type": "creative",
+      "start": "2026-06-01",
+      "end": "2026-08-28",
+      "files": 17,
+      "kind": "表格",
+      "id": "ev_278",
+      "nodes": [
+        "stage_current",
+        "theme_artifacts"
+      ],
+      "status": "unplanned",
+      "fact": "17 个表格文件",
+      "source": "icloud"
+    },
+    {
+      "source": "claude",
+      "type": "ai_session",
+      "start": "2026-06-05",
+      "end": "2026-07-03",
+      "sessions": 52,
+      "turns": 520,
+      "kind": "code",
+      "status": "unplanned",
+      "nodes": [
+        "stage_current",
+        "theme_artifacts"
+      ],
+      "fact": "52 次会话，约 520 轮对话，类型：编程",
+      "id": "ev_279"
+    },
+    {
+      "type": "calendar",
+      "start": "2026-06-08",
+      "end": "2026-09-04",
+      "items": 3,
+      "id": "ev_280",
+      "nodes": [
+        "stage_current",
+        "theme_fragments"
+      ],
+      "status": "unplanned",
+      "fact": "3 条日程",
+      "source": "calendar"
+    },
+    {
+      "type": "creative",
+      "start": "2026-06-08",
+      "end": "2026-07-06",
+      "files": 8,
+      "kind": "表格",
+      "id": "ev_281",
+      "nodes": [
+        "stage_current",
+        "theme_artifacts"
+      ],
+      "status": "unplanned",
+      "fact": "8 个表格文件",
+      "source": "icloud"
+    },
+    {
+      "type": "notes",
+      "start": "2026-06-09",
+      "end": "2026-07-07",
+      "items": 21,
+      "id": "ev_282",
+      "nodes": [
+        "stage_current",
+        "theme_fragments"
+      ],
+      "status": "unplanned",
+      "fact": "21 条备忘",
+      "source": "notes"
+    },
+    {
+      "source": "instagram",
+      "type": "social_post",
+      "start": "2026-06-30",
+      "end": "2026-07-28",
+      "status": "unplanned",
+      "posts": 15,
+      "media": 19,
+      "place": "云岭",
+      "nodes": [
+        "stage_current",
+        "theme_footprints"
+      ],
+      "fact": "15 条动态，包含 19 张照片或视频，地点：云岭",
+      "id": "ev_283",
+      "placeI18n": {
+        "zh": "云岭",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "source": "cursor",
+      "type": "ai_session",
+      "start": "2026-07-02",
+      "end": "2026-07-30",
+      "sessions": 17,
+      "turns": 238,
+      "kind": "code",
+      "status": "unplanned",
+      "nodes": [
+        "stage_current",
+        "theme_artifacts"
+      ],
+      "fact": "17 次会话，约 238 轮对话，类型：编程",
+      "id": "ev_284"
+    },
+    {
+      "source": "chatgpt",
+      "type": "ai_session",
+      "start": "2026-07-07",
+      "end": "2026-10-03",
+      "sessions": 49,
+      "turns": 245,
+      "kind": "code",
+      "status": "unplanned",
+      "nodes": [
+        "stage_current",
+        "theme_artifacts"
+      ],
+      "fact": "49 次会话，约 245 轮对话，类型：编程",
+      "id": "ev_285"
+    },
+    {
+      "source": "linkedin",
+      "type": "social_post",
+      "start": "2026-07-26",
+      "end": "2026-10-22",
+      "status": "unplanned",
+      "posts": 5,
+      "media": 8,
+      "place": null,
+      "nodes": [
+        "stage_current",
+        "theme_artifacts"
+      ],
+      "fact": "5 条动态，包含 8 张照片或视频",
+      "id": "ev_286"
+    },
+    {
+      "source": "gemini",
+      "type": "ai_session",
+      "start": "2026-08-01",
+      "end": "2026-08-29",
+      "sessions": 15,
+      "turns": 60,
+      "kind": "image",
+      "status": "unplanned",
+      "nodes": [
+        "stage_current",
+        "theme_artifacts"
+      ],
+      "fact": "15 次会话，约 60 轮对话，类型：图像",
+      "id": "ev_287"
+    },
+    {
+      "type": "conversation",
+      "start": "2026-08-10",
+      "end": "2026-11-04",
+      "messages": 198,
+      "who": "程一",
+      "id": "ev_288",
+      "nodes": [
+        "stage_current",
+        "people_other"
+      ],
+      "status": "unplanned",
+      "fact": "86 天内 198 条往来",
+      "source": "imessage"
+    },
+    {
+      "source": "mureka",
+      "type": "ai_session",
+      "start": "2026-08-11",
+      "end": "2026-09-08",
+      "sessions": 56,
+      "turns": 280,
+      "kind": "music",
+      "status": "unplanned",
+      "nodes": [
+        "stage_current",
+        "theme_artifacts"
+      ],
+      "fact": "56 次会话，约 280 轮对话，类型：音乐",
+      "id": "ev_289"
+    },
+    {
+      "type": "footprint",
+      "start": "2026-08-19",
+      "end": "2026-09-05",
+      "place": "远汀",
+      "days": 18,
+      "photos": 142,
+      "id": "ev_290",
+      "nodes": [
+        "stage_current",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "18 天，包含 142 张照片或视频，地点：远汀",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "远汀",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "source": "chatgpt",
+      "type": "ai_session",
+      "start": "2026-08-30",
+      "end": "2026-09-27",
+      "sessions": 41,
+      "turns": 328,
+      "kind": "writing",
+      "status": "unplanned",
+      "nodes": [
+        "stage_current",
+        "theme_artifacts"
+      ],
+      "fact": "41 次会话，约 328 轮对话，类型：写作",
+      "id": "ev_291"
+    },
+    {
+      "source": "gemini",
+      "type": "ai_session",
+      "start": "2026-08-31",
+      "end": "2026-10-28",
+      "sessions": 43,
+      "turns": 559,
+      "kind": "chat",
+      "status": "unplanned",
+      "nodes": [
+        "stage_current",
+        "theme_fragments"
+      ],
+      "fact": "43 次会话，约 559 轮对话，类型：日常问答",
+      "id": "ev_292"
+    },
+    {
+      "type": "footprint",
+      "start": "2026-09-04",
+      "end": "2026-09-09",
+      "place": "洛安",
+      "days": 6,
+      "photos": 251,
+      "id": "ev_293",
+      "nodes": [
+        "stage_current",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "6 天，包含 251 张照片或视频，地点：洛安",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "洛安",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "source": "codex",
+      "type": "ai_session",
+      "start": "2026-09-05",
+      "end": "2026-10-03",
+      "sessions": 31,
+      "turns": 248,
+      "kind": "code",
+      "status": "unplanned",
+      "nodes": [
+        "stage_current",
+        "theme_artifacts"
+      ],
+      "fact": "31 次会话，约 248 轮对话，类型：编程",
+      "id": "ev_294"
+    },
+    {
+      "type": "footprint",
+      "start": "2026-09-09",
+      "end": "2026-09-09",
+      "place": "松间",
+      "days": 1,
+      "photos": 157,
+      "id": "ev_295",
+      "nodes": [
+        "stage_current",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "1 天，包含 157 张照片或视频，地点：松间",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "松间",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "type": "creative",
+      "start": "2026-09-15",
+      "end": "2026-10-13",
+      "files": 8,
+      "kind": "演示",
+      "id": "ev_296",
+      "nodes": [
+        "stage_current",
+        "theme_artifacts"
+      ],
+      "status": "unplanned",
+      "fact": "8 个演示文件",
+      "source": "icloud"
+    },
+    {
+      "type": "calendar",
+      "start": "2026-09-16",
+      "end": "2026-11-04",
+      "items": 4,
+      "id": "ev_297",
+      "nodes": [
+        "stage_current",
+        "theme_fragments"
+      ],
+      "status": "unplanned",
+      "fact": "4 条日程",
+      "source": "calendar"
+    },
+    {
+      "type": "creative",
+      "start": "2026-09-21",
+      "end": "2026-11-04",
+      "files": 5,
+      "kind": "设计",
+      "id": "ev_298",
+      "nodes": [
+        "stage_current",
+        "theme_artifacts"
+      ],
+      "status": "unplanned",
+      "fact": "5 个设计文件",
+      "source": "icloud"
+    },
+    {
+      "type": "calendar",
+      "start": "2026-09-23",
+      "end": "2026-11-04",
+      "items": 4,
+      "id": "ev_299",
+      "nodes": [
+        "stage_current",
+        "theme_fragments"
+      ],
+      "status": "unplanned",
+      "fact": "4 条日程",
+      "source": "calendar"
+    },
+    {
+      "type": "footprint",
+      "start": "2026-09-24",
+      "end": "2026-09-24",
+      "place": "栖海",
+      "days": 1,
+      "photos": 719,
+      "id": "ev_300",
+      "nodes": [
+        "stage_current",
+        "theme_footprints"
+      ],
+      "status": "unplanned",
+      "fact": "1 天，包含 719 张照片或视频，地点：栖海",
+      "source": "photos",
+      "placeI18n": {
+        "zh": "栖海",
+        "ko": "",
+        "en": ""
+      }
+    },
+    {
+      "source": "instagram",
+      "type": "social_post",
+      "start": "2026-09-26",
+      "end": "2026-10-24",
+      "status": "unplanned",
+      "posts": 26,
+      "media": 63,
+      "place": null,
+      "nodes": [
+        "stage_current",
+        "theme_fragments"
+      ],
+      "fact": "26 条动态，包含 63 张照片或视频",
+      "id": "ev_301"
+    },
+    {
+      "source": "codex",
+      "type": "ai_session",
+      "start": "2026-10-04",
+      "end": "2026-11-04",
+      "sessions": 13,
+      "turns": 104,
+      "kind": "code",
+      "status": "unplanned",
+      "nodes": [
+        "stage_current",
+        "theme_artifacts"
+      ],
+      "fact": "13 次会话，约 104 轮对话，类型：编程",
+      "id": "ev_302"
+    },
+    {
+      "source": "cursor",
+      "type": "ai_session",
+      "start": "2026-10-20",
+      "end": "2026-11-04",
+      "sessions": 43,
+      "turns": 387,
+      "kind": "code",
+      "status": "unplanned",
+      "nodes": [
+        "stage_current",
+        "theme_artifacts"
+      ],
+      "fact": "43 次会话，约 387 轮对话，类型：编程",
+      "id": "ev_303"
+    },
+    {
+      "type": "notes",
+      "start": "2026-10-24",
+      "end": "2026-11-04",
+      "items": 3,
+      "id": "ev_304",
+      "nodes": [
+        "stage_current",
+        "theme_fragments"
+      ],
+      "status": "unplanned",
+      "fact": "3 条备忘",
+      "source": "notes"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 2013,
+      "events": 2
+    },
+    {
+      "year": 2014,
+      "events": 4
+    },
+    {
+      "year": 2015,
+      "events": 4
+    },
+    {
+      "year": 2016,
+      "events": 6
+    },
+    {
+      "year": 2017,
+      "events": 8
+    },
+    {
+      "year": 2018,
+      "events": 13
+    },
+    {
+      "year": 2019,
+      "events": 23
+    },
+    {
+      "year": 2020,
+      "events": 23
+    },
+    {
+      "year": 2021,
+      "events": 24
+    },
+    {
+      "year": 2022,
+      "events": 17
+    },
+    {
+      "year": 2023,
+      "events": 28
+    },
+    {
+      "year": 2024,
+      "events": 36
+    },
+    {
+      "year": 2025,
+      "events": 61
+    },
+    {
+      "year": 2026,
+      "events": 55
+    }
+  ],
+  "delivery_rules": [
+    {
+      "id": "rule_letters",
+      "dimension": "delivery_rule",
+      "name": {
+        "zh": {
+          "main": "密函",
+          "sub": "专属定向传递"
+        },
+        "ko": {
+          "main": "밀서",
+          "sub": "지정 메세지"
+        },
+        "en": {
+          "main": "Letters",
+          "sub": "Private Legacy"
+        }
+      }
+    },
+    {
+      "id": "rule_vault",
+      "dimension": "delivery_rule",
+      "name": {
+        "zh": {
+          "main": "封存",
+          "sub": "私密与条件解锁"
+        },
+        "ko": {
+          "main": "봉인",
+          "sub": "조건부 공개"
+        },
+        "en": {
+          "main": "Vault",
+          "sub": "Conditional Access"
+        }
+      }
+    },
+    {
+      "id": "rule_directive",
+      "dimension": "delivery_rule",
+      "name": {
+        "zh": {
+          "main": "指令",
+          "sub": "销毁与托管逻辑"
+        },
+        "ko": {
+          "main": "지침",
+          "sub": "처리와 소멸"
+        },
+        "en": {
+          "main": "Directive",
+          "sub": "Rules & Deletion"
+        }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "photos",
+      "name": {
+        "zh": "照片与视频",
+        "ko": "사진·동영상",
+        "en": "Photos"
+      },
+      "kind": "local",
+      "connected": true,
+      "event_count": 107,
+      "from_year": 2017,
+      "to_year": 2026
+    },
+    {
+      "id": "imessage",
+      "name": {
+        "zh": "信息",
+        "ko": "메시지",
+        "en": "Messages"
+      },
+      "kind": "local",
+      "connected": true,
+      "event_count": 12,
+      "from_year": 2023,
+      "to_year": 2026
+    },
+    {
+      "id": "calendar",
+      "name": {
+        "zh": "日程",
+        "ko": "캘린더",
+        "en": "Calendar"
+      },
+      "kind": "local",
+      "connected": true,
+      "event_count": 15,
+      "from_year": 2019,
+      "to_year": 2026
+    },
+    {
+      "id": "notes",
+      "name": {
+        "zh": "备忘录",
+        "ko": "메모",
+        "en": "Notes"
+      },
+      "kind": "local",
+      "connected": true,
+      "event_count": 11,
+      "from_year": 2020,
+      "to_year": 2026
+    },
+    {
+      "id": "icloud",
+      "name": {
+        "zh": "iCloud 云盘",
+        "ko": "iCloud 드라이브",
+        "en": "iCloud Drive"
+      },
+      "kind": "local",
+      "connected": true,
+      "event_count": 34,
+      "from_year": 2016,
+      "to_year": 2026
+    },
+    {
+      "id": "instagram",
+      "name": {
+        "zh": "Instagram",
+        "ko": "Instagram",
+        "en": "Instagram"
+      },
+      "kind": "online",
+      "connected": true,
+      "event_count": 34,
+      "from_year": 2015,
+      "to_year": 2026
+    },
+    {
+      "id": "facebook",
+      "name": {
+        "zh": "Facebook",
+        "ko": "Facebook",
+        "en": "Facebook"
+      },
+      "kind": "online",
+      "connected": true,
+      "event_count": 21,
+      "from_year": 2013,
+      "to_year": 2020
+    },
+    {
+      "id": "linkedin",
+      "name": {
+        "zh": "LinkedIn",
+        "ko": "LinkedIn",
+        "en": "LinkedIn"
+      },
+      "kind": "online",
+      "connected": true,
+      "event_count": 13,
+      "from_year": 2019,
+      "to_year": 2026
+    },
+    {
+      "id": "chatgpt",
+      "name": {
+        "zh": "ChatGPT",
+        "ko": "ChatGPT",
+        "en": "ChatGPT"
+      },
+      "kind": "ai",
+      "connected": true,
+      "event_count": 19,
+      "from_year": 2023,
+      "to_year": 2026
+    },
+    {
+      "id": "claude",
+      "name": {
+        "zh": "Claude",
+        "ko": "Claude",
+        "en": "Claude"
+      },
+      "kind": "ai",
+      "connected": true,
+      "event_count": 12,
+      "from_year": 2024,
+      "to_year": 2026
+    },
+    {
+      "id": "gemini",
+      "name": {
+        "zh": "Gemini",
+        "ko": "Gemini",
+        "en": "Gemini"
+      },
+      "kind": "ai",
+      "connected": true,
+      "event_count": 8,
+      "from_year": 2024,
+      "to_year": 2026
+    },
+    {
+      "id": "cursor",
+      "name": {
+        "zh": "Cursor",
+        "ko": "Cursor",
+        "en": "Cursor"
+      },
+      "kind": "ai",
+      "connected": true,
+      "event_count": 8,
+      "from_year": 2024,
+      "to_year": 2026
+    },
+    {
+      "id": "codex",
+      "name": {
+        "zh": "Codex",
+        "ko": "Codex",
+        "en": "Codex"
+      },
+      "kind": "ai",
+      "connected": true,
+      "event_count": 7,
+      "from_year": 2025,
+      "to_year": 2026
+    },
+    {
+      "id": "mureka",
+      "name": {
+        "zh": "Mureka",
+        "ko": "Mureka",
+        "en": "Mureka"
+      },
+      "kind": "ai",
+      "connected": true,
+      "event_count": 3,
+      "from_year": 2025,
+      "to_year": 2026
+    }
+  ],
+  "recipients": [
+    {
+      "id": "recipient_people_林夏",
+      "name": {
+        "zh": "林夏",
+        "ko": "린샤",
+        "en": "Lin Xia"
+      },
+      "relatedNodeId": "people_林夏",
+      "email": "linxia@example.com",
+      "status": "confirmed",
+      "relationship": "朋友",
+      "note": "",
+      "createdAt": "2026-10-30T09:00:00.000Z",
+      "invitedAt": "2026-11-03T09:00:00.000Z",
+      "message": {
+        "zh": "林夏，这些路上的片段、做过的小东西，还有随手记下的日常，我想留给你。愿你在自己的日子里，偶尔翻到它们，也继续走向喜欢的地方。",
+        "ko": "린샤, 길 위에서 남긴 순간과 만들었던 작은 것들, 문득 적어 둔 일상을 너에게 남겨. 네 하루 속에서 가끔 이 기록을 펼쳐 보고, 좋아하는 곳을 향해 계속 걸어가길 바라.",
+        "en": "Lin Xia, I wanted you to have these moments from the road, the little things I made, and the everyday notes I kept. I hope you come across them now and then, as you keep finding places you love."
+      },
+      "messageSavedAt": "2026-10-30T09:00:00.000Z"
+    },
+    {
+      "id": "recipient_people_许安",
+      "name": {
+        "zh": "许安",
+        "ko": "쉬안",
+        "en": "Xu An"
+      },
+      "relatedNodeId": "people_许安",
+      "email": "xuan@example.com",
+      "status": "pending",
+      "relationship": "朋友",
+      "note": "",
+      "createdAt": "2026-10-30T09:00:00.000Z",
+      "invitedAt": "2026-11-03T09:00:00.000Z",
+      "message": "",
+      "messageSavedAt": null
+    },
+    {
+      "id": "recipient_people_other",
+      "name": {
+        "zh": "其他往来",
+        "ko": "기타",
+        "en": "Others"
+      },
+      "relatedNodeId": "people_other",
+      "email": "",
+      "status": "uninvited",
+      "relationship": "",
+      "note": "",
+      "createdAt": "2026-10-30T09:00:00.000Z",
+      "invitedAt": null,
+      "message": "",
+      "messageSavedAt": null
+    }
+  ],
+  "systemProfile": {
+    "name": {
+      "zh": "林舟",
+      "ko": "린저우",
+      "en": "Lin Zhou"
+    },
+    "email": "owner@example.com"
+  },
+  "systemPlan": {
+    "enabled": true,
+    "idleDays": 180,
+    "graceDays": 30,
+    "lastCheckIn": "2026-11-06T00:00:00.000Z"
+  },
+  "guardians": [
+    {
+      "id": "guardian_seed_1",
+      "name": {
+        "zh": "郑宁",
+        "ko": "정닝",
+        "en": "Zheng Ning"
+      },
+      "email": "zhengning@example.com",
+      "relationship": "家人",
+      "note": "",
+      "status": "confirmed",
+      "createdAt": "2026-10-30T09:00:00.000Z",
+      "invitedAt": "2026-11-03T09:00:00.000Z",
+      "message": "",
+      "messageSavedAt": null
+    },
+    {
+      "id": "guardian_seed_2",
+      "name": {
+        "zh": "周岳",
+        "ko": "저우웨",
+        "en": "Zhou Yue"
+      },
+      "email": "zhouyue@example.com",
+      "relationship": "朋友",
+      "note": "",
+      "status": "pending",
+      "createdAt": "2026-10-30T09:00:00.000Z",
+      "invitedAt": "2026-11-03T09:00:00.000Z",
+      "message": "",
+      "messageSavedAt": null
+    }
+  ],
+  "initialDecisions": {
+    "eventStatuses": {
+      "ev_201": "passed_on",
+      "ev_202": "passed_on",
+      "ev_203": "passed_on",
+      "ev_208": "passed_on",
+      "ev_204": "passed_on",
+      "ev_218": "passed_on",
+      "ev_206": "passed_on",
+      "ev_219": "passed_on",
+      "ev_210": "released",
+      "ev_211": "released"
+    },
+    "eventRecipients": {
+      "ev_201": "recipient_people_林夏",
+      "ev_202": "recipient_people_林夏",
+      "ev_203": "recipient_people_林夏",
+      "ev_208": "recipient_people_林夏",
+      "ev_204": "recipient_people_林夏",
+      "ev_218": "recipient_people_林夏",
+      "ev_206": "recipient_people_许安",
+      "ev_219": "recipient_people_许安",
+      "ev_210": null,
+      "ev_211": null
+    },
+    "privacyChoices": {}
+  },
+  "introSeen": false,
+  "accountSession": {
+    "signedIn": false,
+    "status": "signedOut",
+    "email": "",
+    "emailVerified": false,
+    "registeredAt": "2026-10-30T09:00:00.000Z",
+    "lastSignInAt": null,
+    "pending": null,
+    "requestCount": 0
+  },
+  "accountDevices": [
+    {
+      "id": "device_current",
+      "name": {
+        "zh": "这台电脑",
+        "ko": "이 컴퓨터",
+        "en": "This computer"
+      },
+      "type": "computer",
+      "os": "macOS",
+      "browser": "Chrome",
+      "location": {
+        "zh": "首尔，韩国",
+        "ko": "대한민국 서울",
+        "en": "Seoul, South Korea"
+      },
+      "lastActiveAt": "2026-11-06T09:00:00.000Z",
+      "current": true
+    },
+    {
+      "id": "device_phone",
+      "name": {
+        "zh": "iPhone",
+        "ko": "iPhone",
+        "en": "iPhone"
+      },
+      "type": "phone",
+      "os": "iOS",
+      "browser": "Safari",
+      "location": {
+        "zh": "首尔，韩国",
+        "ko": "대한민국 서울",
+        "en": "Seoul, South Korea"
+      },
+      "lastActiveAt": "2026-11-03T18:35:00.000Z",
+      "current": false
+    },
+    {
+      "id": "device_tablet",
+      "name": {
+        "zh": "iPad",
+        "ko": "iPad",
+        "en": "iPad"
+      },
+      "type": "tablet",
+      "os": "iPadOS",
+      "browser": "Safari",
+      "location": {
+        "zh": "釜山，韩国",
+        "ko": "대한민국 부산",
+        "en": "Busan, South Korea"
+      },
+      "lastActiveAt": "2026-10-28T11:20:00.000Z",
+      "current": false
+    }
+  ],
+  "sourceConnections": {
+    "photos": {
+      "sourceId": "photos",
+      "kind": "local",
+      "status": "connected",
+      "scopes": [
+        "metadata"
+      ],
+      "readOnly": true,
+      "simulated": true,
+      "account": {
+        "name": {
+          "zh": "这台设备",
+          "ko": "이 기기",
+          "en": "This device"
+        },
+        "email": ""
+      },
+      "authorizedAt": "2026-10-30T09:00:00.000Z",
+      "lastSyncedAt": "2026-11-05T09:00:00.000Z",
+      "startedAt": null,
+      "operationId": null,
+      "revision": 0,
+      "lastError": null
+    },
+    "imessage": {
+      "sourceId": "imessage",
+      "kind": "local",
+      "status": "connected",
+      "scopes": [
+        "metadata"
+      ],
+      "readOnly": true,
+      "simulated": true,
+      "account": {
+        "name": {
+          "zh": "这台设备",
+          "ko": "이 기기",
+          "en": "This device"
+        },
+        "email": ""
+      },
+      "authorizedAt": "2026-10-30T09:00:00.000Z",
+      "lastSyncedAt": "2026-11-05T09:01:00.000Z",
+      "startedAt": null,
+      "operationId": null,
+      "revision": 0,
+      "lastError": null
+    },
+    "calendar": {
+      "sourceId": "calendar",
+      "kind": "local",
+      "status": "connected",
+      "scopes": [
+        "metadata"
+      ],
+      "readOnly": true,
+      "simulated": true,
+      "account": {
+        "name": {
+          "zh": "这台设备",
+          "ko": "이 기기",
+          "en": "This device"
+        },
+        "email": ""
+      },
+      "authorizedAt": "2026-10-30T09:00:00.000Z",
+      "lastSyncedAt": "2026-11-05T09:02:00.000Z",
+      "startedAt": null,
+      "operationId": null,
+      "revision": 0,
+      "lastError": null
+    },
+    "notes": {
+      "sourceId": "notes",
+      "kind": "local",
+      "status": "connected",
+      "scopes": [
+        "metadata"
+      ],
+      "readOnly": true,
+      "simulated": true,
+      "account": {
+        "name": {
+          "zh": "这台设备",
+          "ko": "이 기기",
+          "en": "This device"
+        },
+        "email": ""
+      },
+      "authorizedAt": "2026-10-30T09:00:00.000Z",
+      "lastSyncedAt": "2026-11-05T09:03:00.000Z",
+      "startedAt": null,
+      "operationId": null,
+      "revision": 0,
+      "lastError": null
+    },
+    "icloud": {
+      "sourceId": "icloud",
+      "kind": "local",
+      "status": "connected",
+      "scopes": [
+        "metadata"
+      ],
+      "readOnly": true,
+      "simulated": true,
+      "account": {
+        "name": {
+          "zh": "这台设备",
+          "ko": "이 기기",
+          "en": "This device"
+        },
+        "email": ""
+      },
+      "authorizedAt": "2026-10-30T09:00:00.000Z",
+      "lastSyncedAt": "2026-11-05T09:04:00.000Z",
+      "startedAt": null,
+      "operationId": null,
+      "revision": 0,
+      "lastError": null
+    },
+    "instagram": {
+      "sourceId": "instagram",
+      "kind": "online",
+      "status": "connected",
+      "scopes": [
+        "metadata"
+      ],
+      "readOnly": true,
+      "simulated": true,
+      "account": {
+        "name": {
+          "zh": "林舟",
+          "ko": "린저우",
+          "en": "Lin Zhou"
+        },
+        "email": "owner@example.com"
+      },
+      "authorizedAt": "2026-10-30T09:00:00.000Z",
+      "lastSyncedAt": "2026-11-05T09:05:00.000Z",
+      "startedAt": null,
+      "operationId": null,
+      "revision": 0,
+      "lastError": null
+    },
+    "facebook": {
+      "sourceId": "facebook",
+      "kind": "online",
+      "status": "connected",
+      "scopes": [
+        "metadata"
+      ],
+      "readOnly": true,
+      "simulated": true,
+      "account": {
+        "name": {
+          "zh": "林舟",
+          "ko": "린저우",
+          "en": "Lin Zhou"
+        },
+        "email": "owner@example.com"
+      },
+      "authorizedAt": "2026-10-30T09:00:00.000Z",
+      "lastSyncedAt": "2026-11-05T09:06:00.000Z",
+      "startedAt": null,
+      "operationId": null,
+      "revision": 0,
+      "lastError": null
+    },
+    "linkedin": {
+      "sourceId": "linkedin",
+      "kind": "online",
+      "status": "connected",
+      "scopes": [
+        "metadata"
+      ],
+      "readOnly": true,
+      "simulated": true,
+      "account": {
+        "name": {
+          "zh": "林舟",
+          "ko": "린저우",
+          "en": "Lin Zhou"
+        },
+        "email": "owner@example.com"
+      },
+      "authorizedAt": "2026-10-30T09:00:00.000Z",
+      "lastSyncedAt": "2026-11-05T09:07:00.000Z",
+      "startedAt": null,
+      "operationId": null,
+      "revision": 0,
+      "lastError": null
+    },
+    "chatgpt": {
+      "sourceId": "chatgpt",
+      "kind": "ai",
+      "status": "connected",
+      "scopes": [
+        "metadata"
+      ],
+      "readOnly": true,
+      "simulated": true,
+      "account": {
+        "name": {
+          "zh": "林舟",
+          "ko": "린저우",
+          "en": "Lin Zhou"
+        },
+        "email": "owner@example.com"
+      },
+      "authorizedAt": "2026-10-30T09:00:00.000Z",
+      "lastSyncedAt": "2026-11-05T09:08:00.000Z",
+      "startedAt": null,
+      "operationId": null,
+      "revision": 0,
+      "lastError": null
+    },
+    "claude": {
+      "sourceId": "claude",
+      "kind": "ai",
+      "status": "connected",
+      "scopes": [
+        "metadata"
+      ],
+      "readOnly": true,
+      "simulated": true,
+      "account": {
+        "name": {
+          "zh": "林舟",
+          "ko": "린저우",
+          "en": "Lin Zhou"
+        },
+        "email": "owner@example.com"
+      },
+      "authorizedAt": "2026-10-30T09:00:00.000Z",
+      "lastSyncedAt": "2026-11-05T09:09:00.000Z",
+      "startedAt": null,
+      "operationId": null,
+      "revision": 0,
+      "lastError": null
+    },
+    "gemini": {
+      "sourceId": "gemini",
+      "kind": "ai",
+      "status": "connected",
+      "scopes": [
+        "metadata"
+      ],
+      "readOnly": true,
+      "simulated": true,
+      "account": {
+        "name": {
+          "zh": "林舟",
+          "ko": "린저우",
+          "en": "Lin Zhou"
+        },
+        "email": "owner@example.com"
+      },
+      "authorizedAt": "2026-10-30T09:00:00.000Z",
+      "lastSyncedAt": "2026-11-05T09:10:00.000Z",
+      "startedAt": null,
+      "operationId": null,
+      "revision": 0,
+      "lastError": null
+    },
+    "cursor": {
+      "sourceId": "cursor",
+      "kind": "ai",
+      "status": "connected",
+      "scopes": [
+        "metadata"
+      ],
+      "readOnly": true,
+      "simulated": true,
+      "account": {
+        "name": {
+          "zh": "林舟",
+          "ko": "린저우",
+          "en": "Lin Zhou"
+        },
+        "email": "owner@example.com"
+      },
+      "authorizedAt": "2026-10-30T09:00:00.000Z",
+      "lastSyncedAt": "2026-11-05T09:11:00.000Z",
+      "startedAt": null,
+      "operationId": null,
+      "revision": 0,
+      "lastError": null
+    },
+    "codex": {
+      "sourceId": "codex",
+      "kind": "ai",
+      "status": "connected",
+      "scopes": [
+        "metadata"
+      ],
+      "readOnly": true,
+      "simulated": true,
+      "account": {
+        "name": {
+          "zh": "林舟",
+          "ko": "린저우",
+          "en": "Lin Zhou"
+        },
+        "email": "owner@example.com"
+      },
+      "authorizedAt": "2026-10-30T09:00:00.000Z",
+      "lastSyncedAt": "2026-11-05T09:12:00.000Z",
+      "startedAt": null,
+      "operationId": null,
+      "revision": 0,
+      "lastError": null
+    },
+    "mureka": {
+      "sourceId": "mureka",
+      "kind": "ai",
+      "status": "connected",
+      "scopes": [
+        "metadata"
+      ],
+      "readOnly": true,
+      "simulated": true,
+      "account": {
+        "name": {
+          "zh": "林舟",
+          "ko": "린저우",
+          "en": "Lin Zhou"
+        },
+        "email": "owner@example.com"
+      },
+      "authorizedAt": "2026-10-30T09:00:00.000Z",
+      "lastSyncedAt": "2026-11-05T09:13:00.000Z",
+      "startedAt": null,
+      "operationId": null,
+      "revision": 0,
+      "lastError": null
+    }
+  }
+}
