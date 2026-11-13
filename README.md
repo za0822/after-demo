@@ -9,3 +9,7 @@ This repository contains the compiled static website. Demo decisions stay in the
 The server-backed TV/iPad pairing and real sharing endpoints are not hosted on GitHub Pages. Use the main demo link on phones, tablets and computers.
 
 Font licenses are included in the assets and licenses folders. Images and simulated media are demonstration assets.
+
+---
+© 2026 Zhang Ao. All Rights Reserved.
+未经许可，不得复制、修改、分发或用于商业用途。
