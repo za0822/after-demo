@@ -82,5 +82,215 @@
     "path": "demo-media/today-small-en.m4a",
     "duration": 11.454,
     "synthetic": true
+  },
+  {
+    "id": "paper-fold-voice",
+    "locale": "zh",
+    "path": "demo-media/paper-fold-voice-zh.m4a",
+    "duration": 18.674,
+    "synthetic": true
+  },
+  {
+    "id": "paper-fold-voice",
+    "locale": "ko",
+    "path": "demo-media/paper-fold-voice-ko.m4a",
+    "duration": 16.751,
+    "synthetic": true
+  },
+  {
+    "id": "paper-fold-voice",
+    "locale": "en",
+    "path": "demo-media/paper-fold-voice-en.m4a",
+    "duration": 15.197,
+    "synthetic": true
+  },
+  {
+    "id": "print-room-voice",
+    "locale": "zh",
+    "path": "demo-media/print-room-voice-zh.m4a",
+    "duration": 18.534,
+    "synthetic": true
+  },
+  {
+    "id": "print-room-voice",
+    "locale": "ko",
+    "path": "demo-media/print-room-voice-ko.m4a",
+    "duration": 16.1,
+    "synthetic": true
+  },
+  {
+    "id": "print-room-voice",
+    "locale": "en",
+    "path": "demo-media/print-room-voice-en.m4a",
+    "duration": 14.985,
+    "synthetic": true
+  },
+  {
+    "id": "model-first-click",
+    "locale": "zh",
+    "path": "demo-media/model-first-click-zh.m4a",
+    "duration": 20.711,
+    "synthetic": true
+  },
+  {
+    "id": "model-first-click",
+    "locale": "ko",
+    "path": "demo-media/model-first-click-ko.m4a",
+    "duration": 18.242,
+    "synthetic": true
+  },
+  {
+    "id": "model-first-click",
+    "locale": "en",
+    "path": "demo-media/model-first-click-en.m4a",
+    "duration": 16.03,
+    "synthetic": true
+  },
+  {
+    "id": "seawall-evening-voice",
+    "locale": "zh",
+    "path": "demo-media/seawall-evening-voice-zh.m4a",
+    "duration": 19.416,
+    "synthetic": true
+  },
+  {
+    "id": "seawall-evening-voice",
+    "locale": "ko",
+    "path": "demo-media/seawall-evening-voice-ko.m4a",
+    "duration": 17.923,
+    "synthetic": true
+  },
+  {
+    "id": "seawall-evening-voice",
+    "locale": "en",
+    "path": "demo-media/seawall-evening-voice-en.m4a",
+    "duration": 15.042,
+    "synthetic": true
+  },
+  {
+    "id": "trail-rest-voice",
+    "locale": "zh",
+    "path": "demo-media/trail-rest-voice-zh.m4a",
+    "duration": 18.517,
+    "synthetic": true
+  },
+  {
+    "id": "trail-rest-voice",
+    "locale": "ko",
+    "path": "demo-media/trail-rest-voice-ko.m4a",
+    "duration": 17.129,
+    "synthetic": true
+  },
+  {
+    "id": "trail-rest-voice",
+    "locale": "en",
+    "path": "demo-media/trail-rest-voice-en.m4a",
+    "duration": 14.342,
+    "synthetic": true
+  },
+  {
+    "id": "laundry-wait-voice",
+    "locale": "zh",
+    "path": "demo-media/laundry-wait-voice-zh.m4a",
+    "duration": 19.299,
+    "synthetic": true
+  },
+  {
+    "id": "laundry-wait-voice",
+    "locale": "ko",
+    "path": "demo-media/laundry-wait-voice-ko.m4a",
+    "duration": 19.757,
+    "synthetic": true
+  },
+  {
+    "id": "laundry-wait-voice",
+    "locale": "en",
+    "path": "demo-media/laundry-wait-voice-en.m4a",
+    "duration": 15.668,
+    "synthetic": true
+  },
+  {
+    "id": "balcony-leaf-voice",
+    "locale": "zh",
+    "path": "demo-media/balcony-leaf-voice-zh.m4a",
+    "duration": 19.962,
+    "synthetic": true
+  },
+  {
+    "id": "balcony-leaf-voice",
+    "locale": "ko",
+    "path": "demo-media/balcony-leaf-voice-ko.m4a",
+    "duration": 15.996,
+    "synthetic": true
+  },
+  {
+    "id": "balcony-leaf-voice",
+    "locale": "en",
+    "path": "demo-media/balcony-leaf-voice-en.m4a",
+    "duration": 15.032,
+    "synthetic": true
+  },
+  {
+    "id": "xuan-gallery-bench",
+    "locale": "zh",
+    "path": "demo-media/xuan-gallery-bench-zh.m4a",
+    "duration": 17.943,
+    "synthetic": true
+  },
+  {
+    "id": "xuan-gallery-bench",
+    "locale": "ko",
+    "path": "demo-media/xuan-gallery-bench-ko.m4a",
+    "duration": 14.975,
+    "synthetic": true
+  },
+  {
+    "id": "xuan-gallery-bench",
+    "locale": "en",
+    "path": "demo-media/xuan-gallery-bench-en.m4a",
+    "duration": 13.993,
+    "synthetic": true
+  },
+  {
+    "id": "xuan-dinner-voice",
+    "locale": "zh",
+    "path": "demo-media/xuan-dinner-voice-zh.m4a",
+    "duration": 19.438,
+    "synthetic": true
+  },
+  {
+    "id": "xuan-dinner-voice",
+    "locale": "ko",
+    "path": "demo-media/xuan-dinner-voice-ko.m4a",
+    "duration": 16.559,
+    "synthetic": true
+  },
+  {
+    "id": "xuan-dinner-voice",
+    "locale": "en",
+    "path": "demo-media/xuan-dinner-voice-en.m4a",
+    "duration": 15.313,
+    "synthetic": true
+  },
+  {
+    "id": "borrowed-umbrella-voice",
+    "locale": "zh",
+    "path": "demo-media/borrowed-umbrella-voice-zh.m4a",
+    "duration": 19.658,
+    "synthetic": true
+  },
+  {
+    "id": "borrowed-umbrella-voice",
+    "locale": "ko",
+    "path": "demo-media/borrowed-umbrella-voice-ko.m4a",
+    "duration": 19.189,
+    "synthetic": true
+  },
+  {
+    "id": "borrowed-umbrella-voice",
+    "locale": "en",
+    "path": "demo-media/borrowed-umbrella-voice-en.m4a",
+    "duration": 15.61,
+    "synthetic": true
   }
 ]
