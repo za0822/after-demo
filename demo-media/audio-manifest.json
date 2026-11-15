@@ -1,0 +1,86 @@
+[
+  {
+    "id": "after-class",
+    "locale": "zh",
+    "path": "demo-media/after-class-zh.m4a",
+    "duration": 15.911,
+    "synthetic": true
+  },
+  {
+    "id": "after-class",
+    "locale": "ko",
+    "path": "demo-media/after-class-ko.m4a",
+    "duration": 13.019,
+    "synthetic": true
+  },
+  {
+    "id": "after-class",
+    "locale": "en",
+    "path": "demo-media/after-class-en.m4a",
+    "duration": 12.257,
+    "synthetic": true
+  },
+  {
+    "id": "quiet-thanks",
+    "locale": "zh",
+    "path": "demo-media/quiet-thanks-zh.m4a",
+    "duration": 15.219,
+    "synthetic": true
+  },
+  {
+    "id": "quiet-thanks",
+    "locale": "ko",
+    "path": "demo-media/quiet-thanks-ko.m4a",
+    "duration": 14.568,
+    "synthetic": true
+  },
+  {
+    "id": "quiet-thanks",
+    "locale": "en",
+    "path": "demo-media/quiet-thanks-en.m4a",
+    "duration": 11.885,
+    "synthetic": true
+  },
+  {
+    "id": "next-trip",
+    "locale": "zh",
+    "path": "demo-media/next-trip-zh.m4a",
+    "duration": 15.208,
+    "synthetic": true
+  },
+  {
+    "id": "next-trip",
+    "locale": "ko",
+    "path": "demo-media/next-trip-ko.m4a",
+    "duration": 13.836,
+    "synthetic": true
+  },
+  {
+    "id": "next-trip",
+    "locale": "en",
+    "path": "demo-media/next-trip-en.m4a",
+    "duration": 12.64,
+    "synthetic": true
+  },
+  {
+    "id": "today-small",
+    "locale": "zh",
+    "path": "demo-media/today-small-zh.m4a",
+    "duration": 14.599,
+    "synthetic": true
+  },
+  {
+    "id": "today-small",
+    "locale": "ko",
+    "path": "demo-media/today-small-ko.m4a",
+    "duration": 13.059,
+    "synthetic": true
+  },
+  {
+    "id": "today-small",
+    "locale": "en",
+    "path": "demo-media/today-small-en.m4a",
+    "duration": 11.454,
+    "synthetic": true
+  }
+]
